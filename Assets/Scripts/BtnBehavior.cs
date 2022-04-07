@@ -2,18 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 public class BtnBehavior : MonoBehaviour
 {
+    void Clock()
+    {
+        SceneManager.LoadScene(1);
+    }
 
     public void SceneChange()
     {
-
         bool CreatedChar = false;
+        float timer;
+        
 
-        if (SceneManager.GetActiveScene().buildIndex == 0)
+        if (CreatedChar == false && SceneManager.GetActiveScene().buildIndex == 0)
         {
-            SceneManager.LoadScene("Recepcao");
+            timer = 3.5f;
+            Invoke("Clock", timer);
         }
         else if (CreatedChar == false && SceneManager.GetActiveScene().buildIndex == 1)
         {
@@ -29,4 +37,5 @@ public class BtnBehavior : MonoBehaviour
             SceneManager.LoadScene("Recepcao");
         }
     }
+    
 }
