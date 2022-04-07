@@ -16,7 +16,14 @@ public class BtnBehavior : MonoBehaviour
     {
         bool CreatedChar = false;
         float timer;
-        
+
+        print(PlayerPrefs.GetString("charGen"));
+
+        if(PlayerPrefs.GetString("charGen") != "Vestimenta incompleta!" && PlayerPrefs.GetString("charGen") != "Vestimenta inadequada!")
+        {
+            CreatedChar = true;
+        }
+
 
         if (CreatedChar == false && SceneManager.GetActiveScene().buildIndex == 0)
         {

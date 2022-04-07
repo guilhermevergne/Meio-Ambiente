@@ -7,6 +7,7 @@ public class Char_Instantiate : MonoBehaviour
     public GameObject[] characters;
     public void testar()
     {
+        print(charIndex());
         if(charIndex() == -2)
         {
             print(PlayerPrefs.GetString("charGen"));
