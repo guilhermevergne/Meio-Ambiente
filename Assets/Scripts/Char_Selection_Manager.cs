@@ -16,10 +16,9 @@ public class Char_Selection_Manager : MonoBehaviour
     void Start()
     {
         PlayerPrefs.SetString("pressed", "");
-        PlayerPrefs.SetString("charGen", "Vestimenta incompleta!");
         setHeads();
         setShirts();
-        setPants();
+        setShirts();
         setShoes();
     }
 
@@ -80,8 +79,6 @@ public class Char_Selection_Manager : MonoBehaviour
     {
         string piece = PlayerPrefs.GetString("pressed");
         string gender = PlayerPrefs.GetString("gender");
-        print(gender + piece + nButton.ToString());
-        print(PlayerPrefs.GetInt(gender + piece + nButton.ToString()));
         if (PlayerPrefs.GetInt(gender+piece+nButton.ToString()) == 0)
         {
             PlayerPrefs.SetInt(piece, -2);
@@ -104,13 +101,11 @@ public class Char_Selection_Manager : MonoBehaviour
         {
             if(PlayerPrefs.GetInt(part) == -1)
             {
-                print(part+PlayerPrefs.GetString(part));
                 charGen = "Vestimenta incompleta!";
                 break;
             }
             else if (PlayerPrefs.GetInt(part) == -2)
             {
-                print(part+PlayerPrefs.GetInt(part));
                 charGen = "Vestimenta inadequada!";
                 break;
             }

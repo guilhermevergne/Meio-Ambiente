@@ -14,34 +14,27 @@ public class BtnBehavior : MonoBehaviour
 
     public void SceneChange()
     {
-        bool CreatedChar = false;
         float timer;
+        
 
-        print(PlayerPrefs.GetString("charGen"));
-
-        if(PlayerPrefs.GetString("charGen") != "Vestimenta incompleta!" && PlayerPrefs.GetString("charGen") != "Vestimenta inadequada!")
-        {
-            CreatedChar = true;
-        }
-
-
-        if (CreatedChar == false && SceneManager.GetActiveScene().buildIndex == 0)
+        if (SceneManager.GetActiveScene().buildIndex == 0)
         {
             timer = 3.5f;
             Invoke("Clock", timer);
         }
-        else if (CreatedChar == false && SceneManager.GetActiveScene().buildIndex == 1)
+        else if (Ui_assistant2.charcreate == false && SceneManager.GetActiveScene().buildIndex == 1)
         {
             SceneManager.LoadScene("Character_Creation");
-            CreatedChar = true;
+            
         }
-        else if (CreatedChar == true && SceneManager.GetActiveScene().buildIndex == 1)
+        else if (Ui_assistant2.charcreate == true && SceneManager.GetActiveScene().buildIndex == 1)
         {
             SceneManager.LoadScene("Refeitorio");
         }
         else if (SceneManager.GetActiveScene().buildIndex == 2)
         {
             SceneManager.LoadScene("Recepcao");
+            Ui_assistant2.charcreate = true;
         }
     }
     
