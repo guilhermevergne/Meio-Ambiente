@@ -43,12 +43,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ca4ef7eb5e3cd247b4080d013f2698f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characters:
+  charColor0:
   - {fileID: 8133754379468160961, guid: 00406e39c7ad309418edcfb14cea28eb, type: 3}
   - {fileID: 6637110345498732549, guid: ea0cc3cc27f57aa409a07b84ea07da01, type: 3}
+  - {fileID: 9058109193326629447, guid: 1802bd36f7832984bba39cd764d6ff00, type: 3}
+  charColor1:
   - {fileID: 2232666086470186448, guid: ef7af17635b4c1048b5829502dc7265c, type: 3}
   - {fileID: 7979795628823460393, guid: fd81a2326b05ec148a2456eeeba5cc7e, type: 3}
-  - {fileID: 9058109193326629447, guid: 1802bd36f7832984bba39cd764d6ff00, type: 3}
-  - {fileID: 6986652604816218267, guid: 3370ab89288047d4ba5a8db768f46f33, type: 3}
   - {fileID: 3241256718212964095, guid: 35ad79d110a249c468ae374815d5b054, type: 3}
-  - {fileID: 2985923000921074603, guid: de23e28b6bf1b0e44822d1de43644ad4, type: 3}
