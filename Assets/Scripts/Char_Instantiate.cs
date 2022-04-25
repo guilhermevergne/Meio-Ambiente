@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Char_Instantiate : MonoBehaviour
 {
-    public GameObject[] characters;
+    public GameObject[] charColor0;
+    public GameObject[] charColor1;
 
     public void Start()
     {
@@ -21,7 +22,7 @@ public class Char_Instantiate : MonoBehaviour
             PlayerPrefs.SetString("gender", "M");
             PlayerPrefs.SetString("color", "B");
             PlayerPrefs.SetString("hair", "B");
-            Instantiate(characters[0], transform);
+            Instantiate(charColor0[0], transform);
         }
         else if(charIndex() == -1)
         {
@@ -30,11 +31,20 @@ public class Char_Instantiate : MonoBehaviour
             PlayerPrefs.SetString("gender", "M");
             PlayerPrefs.SetString("color", "B");
             PlayerPrefs.SetString("hair", "B");
-            Instantiate(characters[0], transform);
+            Instantiate(charColor0[0], transform);
         }
         else
         {
-            Instantiate(characters[charIndex()],transform);
+            //Instantiate(characters[charIndex()],transform);
+            if (PlayerPrefs.GetInt("Color") == 0)
+            {
+                Instantiate(charColor0[PlayerPrefs.GetInt("Heads")], transform);
+            }
+            else
+            {
+                Instantiate(charColor1[PlayerPrefs.GetInt("Heads")], transform);
+            }
+            
         }
     }
 
