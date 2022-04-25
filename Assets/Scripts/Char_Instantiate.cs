@@ -4,20 +4,47 @@ using UnityEngine;
 
 public class Char_Instantiate : MonoBehaviour
 {
-    public GameObject[] characters;
+    public GameObject[] charColor0;
+    public GameObject[] charColor1;
+
+    public void Start()
+    {
+        testar();
+    }
+
     public void testar()
     {
+        print(charIndex());
         if(charIndex() == -2)
         {
             print(PlayerPrefs.GetString("charGen"));
+
+            PlayerPrefs.SetString("gender", "M");
+            PlayerPrefs.SetString("color", "B");
+            PlayerPrefs.SetString("hair", "B");
+            Instantiate(charColor0[0], transform);
         }
         else if(charIndex() == -1)
         {
             print(PlayerPrefs.GetString("charGen"));
+
+            PlayerPrefs.SetString("gender", "M");
+            PlayerPrefs.SetString("color", "B");
+            PlayerPrefs.SetString("hair", "B");
+            Instantiate(charColor0[0], transform);
         }
         else
         {
-            Instantiate(characters[charIndex()],transform);
+            //Instantiate(characters[charIndex()],transform);
+            if (PlayerPrefs.GetInt("Color") == 0)
+            {
+                Instantiate(charColor0[PlayerPrefs.GetInt("Heads")], transform);
+            }
+            else
+            {
+                Instantiate(charColor1[PlayerPrefs.GetInt("Heads")], transform);
+            }
+            
         }
     }
 
@@ -33,10 +60,12 @@ public class Char_Instantiate : MonoBehaviour
             {
                 if (PlayerPrefs.GetInt("Heads") == 1) //MBB
                 {
+                    PlayerPrefs.SetString("hair", "B");
                     return 0; //MBB
                 }
                 else //MBH
                 {
+                    PlayerPrefs.SetString("hair", "H");
                     return 1; //MBH
                 }
             }
@@ -44,10 +73,12 @@ public class Char_Instantiate : MonoBehaviour
             {
                 if (PlayerPrefs.GetInt("Heads") == 1) //MWB
                 {
+                    PlayerPrefs.SetString("hair", "B");
                     return 2;//MWB
                 }
                 else
                 {
+                    PlayerPrefs.SetString("hair", "H");
                     return 3; //MWH
                 }
             }
@@ -58,10 +89,12 @@ public class Char_Instantiate : MonoBehaviour
             {
                 if (PlayerPrefs.GetInt("Heads") == 1) //FBL
                 {
+                    PlayerPrefs.SetString("hair", "L");
                     return 4; //FBL
                 }
                 else //MBH
                 {
+                    PlayerPrefs.SetString("hair", "S");
                     return 5; //FBS
                 }
             }
@@ -69,10 +102,12 @@ public class Char_Instantiate : MonoBehaviour
             {
                 if (PlayerPrefs.GetInt("Heads") == 1) //FWL
                 {
+                    PlayerPrefs.SetString("hair", "L");
                     return 6; //FWL
                 }
                 else //FWS
                 {
+                    PlayerPrefs.SetString("hair", "S");
                     return 7; //FWS
                 }
             }
