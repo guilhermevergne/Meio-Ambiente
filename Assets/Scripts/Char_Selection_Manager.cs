@@ -111,9 +111,10 @@ public class Char_Selection_Manager : MonoBehaviour
             }
             else
             {
-                charGen += PlayerPrefs.GetInt(part).ToString();
+                charGen = "Created";
             }
         }
+        DestroyImmediate(GameObject.Find("Selection(Clone)"));
         PlayerPrefs.SetString("charGen", charGen);
     }
 

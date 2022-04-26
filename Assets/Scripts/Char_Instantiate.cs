@@ -15,7 +15,7 @@ public class Char_Instantiate : MonoBehaviour
     public void testar()
     {
         print(charIndex());
-        if(charIndex() == -2)
+        if(PlayerPrefs.GetString("charGen") == "Vestimenta Inadequada!")
         {
             print(PlayerPrefs.GetString("charGen"));
 
@@ -24,7 +24,7 @@ public class Char_Instantiate : MonoBehaviour
             PlayerPrefs.SetString("hair", "B");
             Instantiate(charColor0[0], transform);
         }
-        else if(charIndex() == -1)
+        else if(PlayerPrefs.GetString("charGen") == "Vestimenta incompleta!")
         {
             print(PlayerPrefs.GetString("charGen"));
 
@@ -42,6 +42,7 @@ public class Char_Instantiate : MonoBehaviour
             }
             else
             {
+                print(PlayerPrefs.GetInt("Heads"));
                 Instantiate(charColor1[PlayerPrefs.GetInt("Heads")], transform);
             }
             
