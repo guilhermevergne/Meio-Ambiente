@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Recepcao.unity
     guid: 154ccbddbd54bd54fb17a217916010cf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Character_Creation.unity
     guid: 81438bcd695b93a4d86164ad5f8b62cb
   - enabled: 1
-    path: Assets/Scenes/Refeitorio.unity
+    path: "Assets/Scenes/Refeit\xF3rio/Refeitorio.unity"
     guid: 7eceaf7f46f5be3468af6f8396a69ba0
   m_configObjects: {}

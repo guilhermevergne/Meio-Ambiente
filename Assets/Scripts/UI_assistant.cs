@@ -48,6 +48,6 @@ public class UI_assistant : MonoBehaviour
     private void Start()
     {
         textWriterSingle = TextWriter.AddWriter_Static(messageText, "Ao visitar o Senai CIMATEC, você terá como seu objetivo resolver os desafios " +
-        "que ocorreram durante o percurso, fique atento às dicas e aos avisos para" + "conseguir a maior honra de todas, receber a coroa de mais sustentável!", .02f, true, true);
+        "que ocorrerão durante o percurso, fique atento às dicas e aos avisos para " + "conseguir a maior honra de todas, receber a coroa de mais sustentável!", .02f, true, true);
     }
 }

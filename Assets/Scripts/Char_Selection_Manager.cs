@@ -49,17 +49,17 @@ public class Char_Selection_Manager : MonoBehaviour
 
 
 
-
+    /*
     public void selectColor(string color)
     {
         PlayerPrefs.SetString("color", color);
     }
-
+    
     public void selectGender(string gender)
     {
         PlayerPrefs.SetString("gender", gender);
     }
-
+    
     public void selectPart(string piece)
     {
         PlayerPrefs.SetString("piece", piece);
@@ -74,7 +74,7 @@ public class Char_Selection_Manager : MonoBehaviour
             Instantiate(piecePart[part[piece]],transform);
         }
     }
-
+    /*
     public void selectPiece(int nButton)
     {
         string piece = PlayerPrefs.GetString("pressed");
@@ -87,7 +87,7 @@ public class Char_Selection_Manager : MonoBehaviour
         {
             PlayerPrefs.SetInt(piece,nButton);
         }
-    }
+    }*/
 
     public void finish()
     {
@@ -111,10 +111,34 @@ public class Char_Selection_Manager : MonoBehaviour
             }
             else
             {
-                charGen += PlayerPrefs.GetInt(part).ToString();
+                charGen = "Created";
             }
         }
+        DestroyImmediate(GameObject.Find("Selection(Clone)"));
         PlayerPrefs.SetString("charGen", charGen);
     }
+
+    public void selectHead(int index)
+    {
+        PlayerPrefs.SetInt("Heads", index);
+    }
+    public void selectShirt(int index)
+    {
+        PlayerPrefs.SetInt("Shirts", index);
+    }
+    public void selectPants(int index)
+    {
+        PlayerPrefs.SetInt("Pants", index);
+    }
+    public void selectShoes(int index)
+    {
+        PlayerPrefs.SetInt("Shoes", index);
+    }
+    public void selectColor(int index)
+    {
+        PlayerPrefs.SetInt("Color", index);
+    }
+
+
 
 }

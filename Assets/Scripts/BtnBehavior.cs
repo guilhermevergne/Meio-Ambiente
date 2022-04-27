@@ -12,6 +12,13 @@ public class BtnBehavior : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+
+    public GameObject charSelection;
+    public void InstantiateSelection()
+    {
+        Instantiate(charSelection, transform);
+    }
+
     public void SceneChange()
     {
         float timer;
@@ -22,12 +29,12 @@ public class BtnBehavior : MonoBehaviour
             timer = 3.5f;
             Invoke("Clock", timer);
         }
-        else if (Ui_assistant2.charcreate == false && SceneManager.GetActiveScene().buildIndex == 1)
+        /*else if (Ui_assistant2.charcreate == false && SceneManager.GetActiveScene().buildIndex == 1)
         {
             SceneManager.LoadScene("Character_Creation");
             
-        }
-        else if (Ui_assistant2.charcreate == true && SceneManager.GetActiveScene().buildIndex == 1)
+        }*/
+        else if (/*Ui_assistant2.charcreate == true*/PlayerPrefs.GetString("charGen") == "Created" && SceneManager.GetActiveScene().buildIndex == 1)
         {
             SceneManager.LoadScene("Refeitorio");
         }
