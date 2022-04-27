@@ -817,9 +817,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ao visitar o Senai CIMATEC, voc\xEA ter\xE1 como seu objetivo resolver
-    os desafios\r\nque ocorreram durante o percurso, fique atento \xE0s dicas e aos
-    avisos para\r\nconseguir a maior honra de todas, receber a coroa de mais sustent\xE1vel!"
+  m_Text: "Ao visitar o Senai CIMATEC, voc\xEA ter\xE1 como objetivo resolver os
+    desafios\r de produ\xE7\xE3o mais limpa (P+L) que ocorrer\xE3o durante o percurso.
+    Portanto, fique atento \xE0s dicas e aos avisos para\r\nconseguir a maior recompensa
+    de todas, receber a coroa do/a rei/rainha da sustentabilidade!"
 --- !u!222 &1309932167
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -884,8 +885,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 483, y: -251}
-  m_SizeDelta: {x: 89.0527, y: 84.16}
+  m_AnchoredPosition: {x: 476, y: -246}
+  m_SizeDelta: {x: 141.7987, y: 134.008}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1712654310
 MonoBehaviour:
@@ -975,7 +976,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3faca136b4e831d40b38f9f94ef9700b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b09fb27e972fc92459f474a59bbfa254, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

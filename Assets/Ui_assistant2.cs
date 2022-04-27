@@ -67,7 +67,7 @@ public class Ui_assistant2 : MonoBehaviour
         else
         {
             textWriterSingle = TextWriter.AddWriter_Static(messageText, "Olá, seja bem-vindo ao SENAI CIMATEC! Para iniciarmos a " +
-         "sua visita ao local, é necessario que se cadastre e crie um crachá para ter o seu acesso liberado.", .02f, true, true);
+         "sua aventura aqui, é necessario que se cadastre e crie um crachá para ter o seu acesso liberado.", .02f, true, true);
         }
        
     }
