@@ -40,8 +40,15 @@ public class BtnBehavior : MonoBehaviour
         }
         else if (SceneManager.GetActiveScene().buildIndex == 2)
         {
-            SceneManager.LoadScene("Recepcao");
-            Ui_assistant2.charcreate = true;
+            if(PlayerPrefs.GetString("charGen") == "Created")
+            {
+                SceneManager.LoadScene("Recepcao");
+                Ui_assistant2.charcreate = true;
+            }
+            else
+            {
+                print("Escolha um vestimenta adequada!");
+            }
         }
     }
     

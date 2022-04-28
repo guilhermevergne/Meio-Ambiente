@@ -138,6 +138,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 855673220470627552, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
+      propertyPath: m_Name
+      value: Btn2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824726333301105189, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
+      propertyPath: m_Name
+      value: Btn1
+      objectReference: {fileID: 0}
     - target: {fileID: 2199270178705928279, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1
@@ -194,10 +202,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2737135765544620591, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
+      propertyPath: m_Name
+      value: Btn0
+      objectReference: {fileID: 0}
     - target: {fileID: 4061879860298650950, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 8054431339928457095, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
+      propertyPath: Sink.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054431339928457095, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
+      propertyPath: Dryer.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054431339928457095, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
+      propertyPath: Sink.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: f751c007ee6b9d249a73a30347f7140e, type: 3}
+    - target: {fileID: 8054431339928457095, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
+      propertyPath: Sink.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 207152aa04510f442b26532248161d19, type: 3}
+    - target: {fileID: 8054431339928457095, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
+      propertyPath: Sink.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 0e99f8b924a47774c9188143ebba69bb, type: 3}
+    - target: {fileID: 8054431339928457095, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
+      propertyPath: Dryer.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7c47a3196d2085741981cd30900f49f7, type: 3}
+    - target: {fileID: 8054431339928457095, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
+      propertyPath: Dryer.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 53c1d45c33c60f048807bcf5721e65d3, type: 3}
+    - target: {fileID: 8054431339928457095, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
+      propertyPath: Dryer.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: e3a7c324ea2ad75429ea9224a47e4c8a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
 --- !u!1 &738423850 stripped
@@ -268,7 +312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
+  m_ScaleFactor: 0.01
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 1
@@ -289,7 +333,7 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0

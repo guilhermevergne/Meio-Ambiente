@@ -48,3 +48,37 @@ MonoBehaviour:
   - {fileID: 3679245436216781754, guid: 59daf2f4b007f67448d933e06c49af5f, type: 3}
   - {fileID: 4626852422265288734, guid: b0760d38909dabb4784f4e6a8c61e22a, type: 3}
   - {fileID: 6727567433087917828, guid: b1505e02a67fc9343a240ace428dc8d8, type: 3}
+  headSprite:
+  - {fileID: 21300000, guid: fbc07404364bd2a4cbc8845af7025e2e, type: 3}
+  - {fileID: 21300000, guid: 902207f091e262a42a03e07d591a2663, type: 3}
+  - {fileID: 21300000, guid: b82be195e54b2e647a46aa01b2da912a, type: 3}
+  - {fileID: 21300000, guid: bc6c001798b07f54da11c30594492784, type: 3}
+  shirtSprite:
+  - {fileID: 21300000, guid: 8fec7da8ac72c104aa1e68281a6d5b35, type: 3}
+  - {fileID: 21300000, guid: 7a6105663f9db5340ac13f3203777e2e, type: 3}
+  - {fileID: 21300000, guid: 789bb3f67ef228b4099c65199488bb37, type: 3}
+  pantsSprite:
+  - {fileID: 21300000, guid: ec49b680ab7538744b8c91821820c81e, type: 3}
+  - {fileID: 21300000, guid: b85c8ec496e44ce4e97da29b2ceed8a5, type: 3}
+  - {fileID: 21300000, guid: ea6ca50678a1c1e45b0a61c2286bf893, type: 3}
+  shoesSprite:
+  - {fileID: 21300000, guid: a555037a55a0b834798cde59eb9f35d8, type: 3}
+  - {fileID: 21300000, guid: 7552d71ef593d8f49bdeb6dc1748892c, type: 3}
+  - {fileID: 21300000, guid: 67622a222e6f23e47936a6e50fc16f5c, type: 3}
+  headSpriteSelected:
+  - {fileID: 21300000, guid: 85e263f319b78424fbe04db1d3bae189, type: 3}
+  - {fileID: 21300000, guid: 08cd15d154a5ba443befcb48f79b4ba2, type: 3}
+  - {fileID: 21300000, guid: 4ec77b539dac90f4ab0b31244b8d9f22, type: 3}
+  - {fileID: 21300000, guid: b7fdd19f6e9546b4aba39c6228a75c20, type: 3}
+  shirtSpriteSelected:
+  - {fileID: 21300000, guid: 47063d82f464ce64481d8b0f5192ee1b, type: 3}
+  - {fileID: 21300000, guid: f21d5d138487f1d4a952ccc614d330ba, type: 3}
+  - {fileID: 21300000, guid: 59cf4a57941eb464cb27c663eda24776, type: 3}
+  pantsSpriteSelected:
+  - {fileID: 21300000, guid: 51144c61d1c072a499bdab14817cdbd3, type: 3}
+  - {fileID: 21300000, guid: 05a4c1b7d56042048932a985d6bd9c23, type: 3}
+  - {fileID: 21300000, guid: 4f4b896d243e3cd4eb73e4c7ccca0528, type: 3}
+  shoesSpriteSelected:
+  - {fileID: 21300000, guid: 84a715f72b818b448b4d9bb662a02c71, type: 3}
+  - {fileID: 21300000, guid: aea7d8a6062dd9f45a7e2355d483ea63, type: 3}
+  - {fileID: 21300000, guid: fc816b3653f19144d9ce004cd0402646, type: 3}
