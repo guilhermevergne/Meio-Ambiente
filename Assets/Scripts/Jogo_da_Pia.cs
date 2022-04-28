@@ -15,6 +15,10 @@ public class Jogo_da_Pia : MonoBehaviour
         PlayerPrefs.DeleteKey("Sink");
         PlayerPrefs.DeleteKey("Dryer");
         sinkSelected = false;
+        if (PlayerPrefs.GetInt("Jogo da Pia") == 1)
+        {
+            DestroyImmediate(GameObject.Find("Jogo_da_Pia"));
+        }
     }
 
     void ChangeBtn()
