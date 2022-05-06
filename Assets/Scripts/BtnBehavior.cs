@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -12,8 +13,10 @@ public class BtnBehavior : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    private VideoPlayer video;
 
     public GameObject charSelection;
+
     public void InstantiateSelection()
     {
         Instantiate(charSelection, transform);
@@ -26,8 +29,12 @@ public class BtnBehavior : MonoBehaviour
 
         if (SceneManager.GetActiveScene().buildIndex == 0)
         {
-            timer = 3.5f;
+            timer = 5f;
+
             Invoke("Clock", timer);
+
+            video.Play();
+
         }
         /*else if (Ui_assistant2.charcreate == false && SceneManager.GetActiveScene().buildIndex == 1)
         {
@@ -51,5 +58,10 @@ public class BtnBehavior : MonoBehaviour
             }
         }
     }
-    
+
+    public void Start()
+    {
+        video = transform.Find("Transition_Video").GetComponent<VideoPlayer>();
+    }
+
 }
