@@ -111,7 +111,7 @@ public class Char_Selection_Manager : MonoBehaviour
         {
             if(PlayerPrefs.GetInt(part) == -1)
             {
-                charGen = "Vestimenta incompleta!";
+                charGen = "Vestimenta inadequada!";
                 break;
             }
             else if (PlayerPrefs.GetInt(part) == -2)
@@ -128,6 +128,7 @@ public class Char_Selection_Manager : MonoBehaviour
         DestroyImmediate(GameObject.Find("Selection 2(Clone)"));
         DestroyImmediate(GameObject.Find("Selection 3(Clone)"));
         PlayerPrefs.SetString("charGen", charGen);
+        Debug.Log(PlayerPrefs.GetString("charGen"));
     }
 
     public void selectHead(int index)

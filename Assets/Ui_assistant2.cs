@@ -28,31 +28,38 @@ public class Ui_assistant2 : MonoBehaviour
             }
             else
             {
-                if (charcreate)
+                string[] messageArray = new string[]{
+                /*"Cuidado com suas escolhas, todas as suas ações contam para o seu score final!"*/"Place Holder",
+                "Clique no computador para criar seu cadastro!",
+                "Oh oh, infelizmente você não pode adentrar o SENAI Cimatec com as vestimentas escolhidas. Por favor, volte e escolha novamente.",
+                "Parabéns, você escolheu vestimentas adequadas para adentrar o SENAI Cimatec.",
+                    
+                };
+                if (i == 0)
                 {
-                    
+                    string message = messageArray[i];
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);
+                    i = 1;
                 }
-                else
-                    {
-                        string[] messageArray = new string[]{
-                    "Cuidado com suas escolhas, todas as suas ações contam para o seu score final!",
-                    "Clique no computador para criar seu crachá!",
-                    
-                    };
-                        if (i == 0)
-                        {
-                            string message = messageArray[i];
-                            textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);
-                            i = 1;
-                        }
-                        else if (i == 1)
-                        {
-                            string message = messageArray[i];
-                            textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);
-                            i = 2;
-                        }
+                else if (i == 1)
+                {
+                    string message = messageArray[i];
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);
+                    i = 2;
                 }
-                
+                else if (i == 2 && PlayerPrefs.GetString("charGen") == "Vestimenta inadequada!")
+                {
+                    Debug.Log(i);
+                    string message = messageArray[i];
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);
+                }
+                else if (i == 2 && PlayerPrefs.GetString("charGen") == "Created")
+                {
+                    i = 3;
+                    string message = messageArray[i];
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);
+                }
+
             }
 
         };
