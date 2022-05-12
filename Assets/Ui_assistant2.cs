@@ -29,10 +29,10 @@ public class Ui_assistant2 : MonoBehaviour
             else
             {
                 string[] messageArray = new string[]{
-                /*"Cuidado com suas escolhas, todas as suas ações contam para o seu score final!"*/"Place Holder",
-                "Clique no computador para criar seu cadastro!",
+                "Clique no computador para realizar o seu cadastro!",
                 "Oh oh, infelizmente você não pode adentrar o SENAI Cimatec com as vestimentas escolhidas. Por favor, volte e escolha novamente.",
-                "Parabéns, você escolheu vestimentas adequadas para adentrar o SENAI Cimatec.",
+                "Parabéns, você escolheu vestimentas adequadas para adentrar o SENAI Cimatec. Sua entrada está liberada !!!!",
+                "Mas atenção, você está recebendo 1.000 sustens para serem utilizadas nas próximas missões. \nPortanto, cuidado com as suas escolhas, pois elas impactam na sua pontuação final!!!!",
                     
                 };
                 if (i == 0)
@@ -41,23 +41,23 @@ public class Ui_assistant2 : MonoBehaviour
                     textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);
                     i = 1;
                 }
-                else if (i == 1)
-                {
-                    string message = messageArray[i];
-                    textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);
-                    i = 2;
-                }
-                else if (i == 2 && PlayerPrefs.GetString("charGen") == "Vestimenta inadequada!")
+                else if (i == 1 && PlayerPrefs.GetString("charGen") == "Vestimenta inadequada!")
                 {
                     Debug.Log(i);
                     string message = messageArray[i];
                     textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);
                 }
-                else if (i == 2 && PlayerPrefs.GetString("charGen") == "Created")
+                else if (i == 1 && PlayerPrefs.GetString("charGen") == "Created")
                 {
-                    i = 3;
+                    i = 2;
                     string message = messageArray[i];
                     textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);
+                }
+                if (i == 2)
+                {
+                    string message = messageArray[i];
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);
+                    i = 3;
                 }
 
             }
@@ -74,7 +74,7 @@ public class Ui_assistant2 : MonoBehaviour
         else
         {
             textWriterSingle = TextWriter.AddWriter_Static(messageText, "Olá, seja bem-vindo ao SENAI CIMATEC! Para iniciarmos a " +
-         "sua aventura aqui, é necessario que se cadastre e crie um crachá para ter o seu acesso liberado.", .02f, true, true);
+         "sua aventura aqui, primeiro é necessario que se cadastre no sistema para ter seu acesso liberado.", .02f, true, true);
         }
        
     }

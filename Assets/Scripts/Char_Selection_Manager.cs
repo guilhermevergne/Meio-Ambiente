@@ -15,6 +15,18 @@ public class Char_Selection_Manager : MonoBehaviour
     public Sprite[] pantsSpriteSelected;
     public Sprite[] shoesSpriteSelected;
 
+    public Sprite[] imgHead0;
+    public Sprite[] imgShirt0;
+    public Sprite[] imgPants0;
+    public Sprite[] imgShoes0;
+
+    public Sprite[] imgHead1;
+    public Sprite[] imgShirt1;
+    public Sprite[] imgPants1;
+    public Sprite[] imgShoes1;
+
+
+
     Dictionary<string, int> part = new Dictionary<string, int> {
         {"Heads", 0 },
         {"Shirts", 1 },
@@ -26,78 +38,18 @@ public class Char_Selection_Manager : MonoBehaviour
     void Start()
     {
         PlayerPrefs.SetString("pressed", "");
-        setHeads();
-        setShirts();
-        setShirts();
-        setShoes();
+        setAvatar();
+        Debug.Log("xablau");
     }
 
-    void setHeads()
+    void setAvatar()
     {
-        PlayerPrefs.SetInt("Heads", -1);
-        PlayerPrefs.SetInt("MHeads1", 1);
-        PlayerPrefs.SetInt("MHeads2", 1);
-    }
-
-    void setShirts()
-    {
-        PlayerPrefs.SetInt("Shirts", -1);
-        PlayerPrefs.SetInt("MShirts0", 1);
-    }
-
-    void setPants()
-    {
-        PlayerPrefs.SetInt("Pants", -1);
-        PlayerPrefs.SetInt("MPants0", 1);
-    }
-
-    void setShoes()
-    {
-        PlayerPrefs.SetInt("Shoes", -1);
-        PlayerPrefs.SetInt("MShoes1", 1);
-    }
-
-
-
-    /*
-    public void selectColor(string color)
-    {
-        PlayerPrefs.SetString("color", color);
+        setAvatarHead(PlayerPrefs.GetInt("Head"));
+        setAvatarShirt(PlayerPrefs.GetInt("Shirt"));
+        setAvatarPants(PlayerPrefs.GetInt("Pant"));
+        setAvatarShoes(PlayerPrefs.GetInt("Shoe"));
     }
     
-    public void selectGender(string gender)
-    {
-        PlayerPrefs.SetString("gender", gender);
-    }
-    
-    public void selectPart(string piece)
-    {
-        PlayerPrefs.SetString("piece", piece);
-        if (PlayerPrefs.GetString("pressed") == piece)
-        {
-            PlayerPrefs.SetString("pressed", "");
-            DestroyImmediate(GameObject.Find(piece + "(Clone)"));
-        }
-        else if(PlayerPrefs.GetString("pressed") == "")
-        {
-            PlayerPrefs.SetString("pressed", piece);
-            Instantiate(piecePart[part[piece]],transform);
-        }
-    }
-    /*
-    public void selectPiece(int nButton)
-    {
-        string piece = PlayerPrefs.GetString("pressed");
-        string gender = PlayerPrefs.GetString("gender");
-        if (PlayerPrefs.GetInt(gender+piece+nButton.ToString()) == 0)
-        {
-            PlayerPrefs.SetInt(piece, -2);
-        }
-        else
-        {
-            PlayerPrefs.SetInt(piece,nButton);
-        }
-    }*/
 
     public void finish()
     {
@@ -131,6 +83,54 @@ public class Char_Selection_Manager : MonoBehaviour
         Debug.Log(PlayerPrefs.GetString("charGen"));
     }
 
+    void setAvatarHead(int index)
+    {
+        if (PlayerPrefs.GetInt("Color") == 0)
+        {
+            GameObject.Find("Head").GetComponent<Image>().sprite = imgHead0[PlayerPrefs.GetInt("Head")];
+        }
+        else if (PlayerPrefs.GetInt("Color") == 1)
+        {
+            GameObject.Find("Head").GetComponent<Image>().sprite = imgHead1[PlayerPrefs.GetInt("Head")];
+        }
+    }
+
+    void setAvatarShirt(int index)
+    {
+        if (PlayerPrefs.GetInt("Color") == 0)
+        {
+            GameObject.Find("Shirt").GetComponent<Image>().sprite = imgShirt0[PlayerPrefs.GetInt("Shirt")];
+        }
+        else if (PlayerPrefs.GetInt("Color") == 1)
+        {
+            GameObject.Find("Shirt").GetComponent<Image>().sprite = imgShirt1[PlayerPrefs.GetInt("Shirt")];
+        }
+    }
+
+    void setAvatarPants(int index)
+    {
+        if (PlayerPrefs.GetInt("Color") == 0)
+        {
+            GameObject.Find("Pants").GetComponent<Image>().sprite = imgPants0[PlayerPrefs.GetInt("Pant")];
+        }
+        else if (PlayerPrefs.GetInt("Color") == 1)
+        {
+            GameObject.Find("Pants").GetComponent<Image>().sprite = imgPants1[PlayerPrefs.GetInt("Pant")];
+        }
+    }
+
+    void setAvatarShoes(int index)
+    {
+        if (PlayerPrefs.GetInt("Color") == 0)
+        {
+            GameObject.Find("Shoes").GetComponent<Image>().sprite = imgShoes0[PlayerPrefs.GetInt("Shoe")];
+        }
+        else if (PlayerPrefs.GetInt("Color") == 1)
+        {
+            GameObject.Find("Shoes").GetComponent<Image>().sprite = imgShoes1[PlayerPrefs.GetInt("Shoe")];
+        }
+    }
+
     public void selectHead(int index)
     {
         int old = PlayerPrefs.GetInt("Head");
@@ -141,6 +141,7 @@ public class Char_Selection_Manager : MonoBehaviour
         if (index == 2) index = 1;
         if (index == 3) index = 2;
         PlayerPrefs.SetInt("Heads", index);
+        setAvatar();
     }
     public void selectShirt(int index)
     {
@@ -152,6 +153,7 @@ public class Char_Selection_Manager : MonoBehaviour
         if (index == 1) index = -2;
         if (index == 2) index = 0;
         PlayerPrefs.SetInt("Shirts", index);
+        setAvatar();
     }
     public void selectPants(int index)
     {
@@ -163,6 +165,7 @@ public class Char_Selection_Manager : MonoBehaviour
         if (index == 1) index = 0;
         if (index == 2) index = -2;
         PlayerPrefs.SetInt("Pants", index);
+        setAvatar();
     }
     public void selectShoes(int index)
     {
@@ -174,10 +177,19 @@ public class Char_Selection_Manager : MonoBehaviour
         if (index == 1) index = -2;
         if (index == 2) index = 0;
         PlayerPrefs.SetInt("Shoes", index);
+        setAvatar();
     }
     public void selectColor(int index)
     {
         PlayerPrefs.SetInt("Color", index);
+        setAvatar();
+        /*
+        selectHead(PlayerPrefs.GetInt("Head"));
+        selectShirt(PlayerPrefs.GetInt("Shirt"));
+        selectPants(PlayerPrefs.GetInt("Pant"));
+        selectShoes(PlayerPrefs.GetInt("Shoe"));
+        */
+
     }
 
 
