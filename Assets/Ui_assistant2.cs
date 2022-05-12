@@ -43,19 +43,18 @@ public class Ui_assistant2 : MonoBehaviour
                 }
                 else if (i == 1 && PlayerPrefs.GetString("charGen") == "Vestimenta inadequada!")
                 {
-                    Debug.Log(i);
                     string message = messageArray[i];
                     textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);
                 }
                 else if (i == 1 && PlayerPrefs.GetString("charGen") == "Created")
                 {
-                    i = 2;
-                    string message = messageArray[i];
+                    string message = messageArray[i+1];
                     textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);
+                    i = 2;
                 }
-                if (i == 2)
+                else if (i == 2)
                 {
-                    string message = messageArray[i];
+                    string message = messageArray[i+1];
                     textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);
                     i = 3;
                 }
