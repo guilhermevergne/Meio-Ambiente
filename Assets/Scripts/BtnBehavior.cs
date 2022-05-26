@@ -50,7 +50,7 @@ public class BtnBehavior : MonoBehaviour
             if(PlayerPrefs.GetString("charGen") == "Created")
             {
                 SceneManager.LoadScene("Recepcao");
-                Ui_assistant2.charcreate = true;
+                UI_assistant.charcreate = true;
             }
             else
             {
