@@ -56,6 +56,7 @@ public class Jogo_da_Pia : MonoBehaviour
             {
                 sustem -= 250;
             }
+            SceneManager.LoadScene("Refeitorio");
         }
         PlayerPrefs.SetInt("Sustem", sustem);
     }
@@ -76,6 +77,7 @@ public class Jogo_da_Pia : MonoBehaviour
     {
         if(PlayerPrefs.GetInt("Jogo da Pia") != 1)
         {
+            PlayerPrefs.SetFloat("PlayerX", GameObject.Find("Player").transform.localPosition.x);
             PlayerPrefs.SetInt("Jogo da Pia", 1);
             SceneManager.LoadScene("Jogo da Pia");
         }

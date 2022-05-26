@@ -90,10 +90,16 @@ public class UI_assistant : MonoBehaviour
         else if (SceneManager.GetActiveScene().buildIndex == 2)
         {
             messageText = transform.Find("DialogueText").GetComponent<Text>();
-
-            textWriterSingle = TextWriter.AddWriter_Static(messageText, "Está com fome? espero que esteja, bem vindo(a) ao refeitorio! Aqui voçê sera desafiado e " +
-                "recebera Sustens com base na sua performance nesses desafios. Ande por ai e descubra onde eles se encontram, Boa sorte!", .02f, true, true);
-
+            if(PlayerPrefs.GetInt("Jogo da Pia") == 0)
+            {
+                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Está com fome? espero que esteja, bem vindo(a) ao refeitorio! Aqui você será desafiado(a) e " +
+                    "receberá Sustens com base na sua performance nesses desafios. Ande por aí e descubra onde eles se encontram, Boa sorte!", .02f, true, true);
+            }
+            else
+            {
+                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Hum… que cheiro bom, está na hora do almoço." +
+                    "\nAproveite e monte a sua refeição.", .02f, true, true);
+            }
             transform.Find("DialogueText").GetComponent<Button_UI>().ClickFunc = () =>
             {
                 if (i == 1)
@@ -122,6 +128,9 @@ public class UI_assistant : MonoBehaviour
         else if(SceneManager.GetActiveScene().buildIndex == 3)
         {
             messageText = transform.Find("DialogueText").GetComponent<Text>();
+
+            display = GameObject.FindGameObjectWithTag("TextDisplay");
+            display.SetActive(display.activeSelf);
 
             textWriterSingle = TextWriter.AddWriter_Static(messageText, "Olá, seja bem-vindo ao SENAI CIMATEC! Para iniciarmos a " +
                 "sua aventura aqui, primeiro é necessario que se cadastre no sistema para ter seu acesso liberado.", .02f, true, true);

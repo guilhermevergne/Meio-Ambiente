@@ -6,6 +6,7 @@ public class Char_Instantiate : MonoBehaviour
 {
     public GameObject[] charColor0;
     public GameObject[] charColor1;
+    public GameObject player;
 
     public void Start()
     {
@@ -34,6 +35,12 @@ public class Char_Instantiate : MonoBehaviour
         }
         else
         {
+            if(PlayerPrefs.GetInt("Jogo da Pia") == 1)
+            {
+                player.transform.localPosition = new Vector3(PlayerPrefs.GetFloat("PlayerX"),
+                    player.transform.localPosition.y, player.transform.localPosition.z);
+            }
+            
             //Instantiate(characters[charIndex()],transform);
             if (PlayerPrefs.GetInt("Color") == 0)
             {
@@ -41,7 +48,6 @@ public class Char_Instantiate : MonoBehaviour
             }
             else
             {
-                print(PlayerPrefs.GetInt("Heads"));
                 Instantiate(charColor1[PlayerPrefs.GetInt("Heads")], transform);
             }
             

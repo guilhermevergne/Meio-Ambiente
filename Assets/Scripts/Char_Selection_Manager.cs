@@ -53,6 +53,7 @@ public class Char_Selection_Manager : MonoBehaviour
 
     public void finish()
     {
+        setAvatar();
         string charGen = "";
         string[] parts = new string[] {
         "Heads",
@@ -191,7 +192,5 @@ public class Char_Selection_Manager : MonoBehaviour
         */
 
     }
-
-
 
 }
