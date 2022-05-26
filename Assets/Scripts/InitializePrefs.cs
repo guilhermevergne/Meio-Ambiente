@@ -7,6 +7,7 @@ public class InitializePrefs : MonoBehaviour
     void Start()
     {
         PlayerPrefs.DeleteAll();
+        PlayerPrefs.SetInt("Sustem", 1000);
     }
 
     void Update()

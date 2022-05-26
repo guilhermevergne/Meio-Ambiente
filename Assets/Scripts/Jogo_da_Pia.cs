@@ -28,19 +28,36 @@ public class Jogo_da_Pia : MonoBehaviour
         GameObject.Find("Btn2").GetComponent<Image>().sprite = Dryer[2];
     }
 
-    public void SelectSink(int button)
+    public void SelectSinkAndDryer(int button)
     {
+        int sustem = PlayerPrefs.GetInt("Sustem");
         if (!sinkSelected)
         {
             PlayerPrefs.SetInt("Sink", button);
             sinkSelected = true;
+            if (button == 0)
+            {
+                PlayerPrefs.SetInt("Pia Certa", 1);
+            }
+            else
+            {
+                sustem -= 250;
+            }
             ChangeBtn();
         }
         else
         {
             PlayerPrefs.SetInt("Dryer", button);
-            SceneManager.LoadScene("Refeitorio");
+            if (button == 1)
+            {
+                PlayerPrefs.SetInt("Secador Certo", 1);
+            }
+            else
+            {
+                sustem -= 250;
+            }
         }
+        PlayerPrefs.SetInt("Sustem", sustem);
     }
 
     public void SelectDryer(int button)
@@ -48,7 +65,10 @@ public class Jogo_da_Pia : MonoBehaviour
         if (sinkSelected)
         {
             PlayerPrefs.SetInt("Dryer", button);
-            SceneManager.LoadScene("Refeitorio");
+            if (button == 1)
+            {
+                PlayerPrefs.SetInt("Secador Certo", 1);
+            }
         }
     }
 

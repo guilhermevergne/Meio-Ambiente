@@ -31,12 +31,12 @@ public class UI_assistant : MonoBehaviour
                     textWriterSingle.WriteAllandDestroy();
                 }
                 else
-                {
+                {/*
                     string[] messageArray = new string[]{
 
                 };
                     string message = messageArray[i];
-                    textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);*/
                 }
 
             };
@@ -112,8 +112,8 @@ public class UI_assistant : MonoBehaviour
                     string[] messageArray = new string[]{
 
                 };
-                    string message = messageArray[i];
-                    textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);
+                    //string message = messageArray[i];
+                    //textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);
 
                 }
                 i++;
@@ -121,6 +121,12 @@ public class UI_assistant : MonoBehaviour
         }
         else if(SceneManager.GetActiveScene().buildIndex == 3)
         {
+            messageText = transform.Find("DialogueText").GetComponent<Text>();
+
+            textWriterSingle = TextWriter.AddWriter_Static(messageText, "Olá, seja bem-vindo ao SENAI CIMATEC! Para iniciarmos a " +
+                "sua aventura aqui, primeiro é necessario que se cadastre no sistema para ter seu acesso liberado.", .02f, true, true);
+
+
             if (textWriterSingle != null && textWriterSingle.isactive())
             {
                 textWriterSingle.WriteAllandDestroy();

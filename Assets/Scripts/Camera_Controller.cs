@@ -10,16 +10,30 @@ public class Camera_Controller : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.position = Vector3.SmoothDamp(transform.position, new Vector3(
-                player.transform.position.x, transform.position.y, transform.position.z),
+        
+        if (player.transform.localPosition.x > -37.8f && player.transform.localPosition.x < 37.8f)
+        {
+            transform.localPosition = Vector3.SmoothDamp(transform.localPosition, new Vector3(
+                player.transform.localPosition.x, transform.localPosition.y, transform.localPosition.z),
                 ref velocity, smoothness);
-        if(transform.position.x < -37.8f)
-        {
-            transform.position = new Vector3(-37.8f, transform.position.y, transform.position.z);
         }
-        if (transform.position.x > 37.8f)
+
+
+
+        
+        if (player.transform.localPosition.x < -37.8f)
         {
-            transform.position = new Vector3(37.8f, transform.position.y, transform.position.z);
+            //transform.localPosition = new Vector3(-37.8f, transform.localPosition.y, transform.localPosition.z);
+            transform.localPosition = Vector3.SmoothDamp(transform.localPosition, new Vector3(
+                -37.8f, transform.localPosition.y, transform.localPosition.z),
+                ref velocity, smoothness);
+        }
+        if (player.transform.localPosition.x > 37.8f)
+        {
+            //transform.localPosition = new Vector3(37.8f, transform.localPosition.y, transform.localPosition.z);
+            transform.localPosition = Vector3.SmoothDamp(transform.localPosition, new Vector3(
+                37.8f, transform.localPosition.y, transform.localPosition.z),
+                ref velocity, smoothness);
         }
     }
 }

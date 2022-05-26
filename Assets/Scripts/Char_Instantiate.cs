@@ -9,12 +9,11 @@ public class Char_Instantiate : MonoBehaviour
 
     public void Start()
     {
-        testar();
+        Testar();
     }
 
-    public void testar()
+    public void Testar()
     {
-        print(charIndex());
         if(PlayerPrefs.GetString("charGen") == "Vestimenta Inadequada!")
         {
             print(PlayerPrefs.GetString("charGen"));
@@ -49,9 +48,10 @@ public class Char_Instantiate : MonoBehaviour
         }
     }
 
-    int charIndex()
+    int CharIndex()
     {
-        string charGen = PlayerPrefs.GetString("charGen");
+
+        /*string charGen = PlayerPrefs.GetString("charGen");
         if (charGen == "Vestimenta incompleta!") return -1;
         if (charGen == "Vestimenta inadequada!") return -2;
 
@@ -112,7 +112,7 @@ public class Char_Instantiate : MonoBehaviour
                     return 7; //FWS
                 }
             }
-        }
+        }*/
+        return 0;
     }
-
 }

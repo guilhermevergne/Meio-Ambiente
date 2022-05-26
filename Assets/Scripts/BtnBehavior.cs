@@ -61,7 +61,10 @@ public class BtnBehavior : MonoBehaviour
 
     public void Start()
     {
-        video = transform.Find("Transition_Video").GetComponent<VideoPlayer>();
+        if(SceneManager.GetActiveScene().buildIndex == 0)
+        {
+            video = transform.Find("Transition_Video").GetComponent<VideoPlayer>();
+        }
     }
 
 }

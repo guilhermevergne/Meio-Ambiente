@@ -142,6 +142,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Btn2
       objectReference: {fileID: 0}
+    - target: {fileID: 1273196234777422371, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectSinkAndDryer
+      objectReference: {fileID: 0}
     - target: {fileID: 1824726333301105189, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
       propertyPath: m_Name
       value: Btn1
@@ -210,6 +214,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 6388782223200524754, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectSinkAndDryer
+      objectReference: {fileID: 0}
     - target: {fileID: 7158721730995613540, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -262,6 +270,10 @@ PrefabInstance:
       propertyPath: Dryer.Array.data[2]
       value: 
       objectReference: {fileID: 21300000, guid: e3a7c324ea2ad75429ea9224a47e4c8a, type: 3}
+    - target: {fileID: 8747851986831177134, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectSinkAndDryer
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e56fcfde008ddfb41be26ac5ff0796ce, type: 3}
 --- !u!1 &241419163
@@ -676,7 +688,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: dfsdaf
 --- !u!222 &1592865602
 CanvasRenderer:
   m_ObjectHideFlags: 0
