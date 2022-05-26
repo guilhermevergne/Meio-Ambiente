@@ -92,8 +92,8 @@ public class UI_assistant : MonoBehaviour
             messageText = transform.Find("DialogueText").GetComponent<Text>();
             if(PlayerPrefs.GetInt("Jogo da Pia") == 0)
             {
-                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Está com fome? espero que esteja, bem vindo(a) ao refeitorio! Aqui você será desafiado(a) e " +
-                    "receberá Sustens com base na sua performance nesses desafios. Ande por aí e descubra onde eles se encontram, Boa sorte!", .02f, true, true);
+                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Este é o refeitório, aqui você fará uma refeição. " +
+                    "Mas antes de se servir, primeiro lave as suas mãos.", .02f, true, true);
             }
             else
             {
