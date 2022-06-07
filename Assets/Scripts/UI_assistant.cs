@@ -129,11 +129,10 @@ public class UI_assistant : MonoBehaviour
         {
             messageText = transform.Find("DialogueText").GetComponent<Text>();
 
-            display = GameObject.FindGameObjectWithTag("TextDisplay");
-            display.SetActive(display.activeSelf);
+            //display = GameObject.FindGameObjectWithTag("TextDisplay");
+            //display.SetActive(display.activeSelf);
 
-            textWriterSingle = TextWriter.AddWriter_Static(messageText, "Olá, seja bem-vindo ao SENAI CIMATEC! Para iniciarmos a " +
-                "sua aventura aqui, primeiro é necessario que se cadastre no sistema para ter seu acesso liberado.", .02f, true, true);
+            textWriterSingle = TextWriter.AddWriter_Static(messageText, "Agora você deve escolher a torneira mais adequada para lavar suas mãos.", .02f, true, true);
 
 
             if (textWriterSingle != null && textWriterSingle.isactive())
