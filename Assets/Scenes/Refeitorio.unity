@@ -123,16 +123,51 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &49187344 stripped
+--- !u!1 &49187344
 GameObject:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 7513924019150882476, guid: 161f8f05f1228d64e89e9007d2d9e109, type: 3}
   m_PrefabInstance: {fileID: 1089774313}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &49187346 stripped
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 49187345}
+  m_Layer: 0
+  m_Name: Placeholder for referenced GameObject in Prefab instance (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &49187345
 Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 9223372036854775807, guid: 161f8f05f1228d64e89e9007d2d9e109, type: 3}
+  m_PrefabInstance: {fileID: 1089774313}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49187344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 49187346}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &49187346
+Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 7178121881670380473, guid: 161f8f05f1228d64e89e9007d2d9e109, type: 3}
   m_PrefabInstance: {fileID: 1089774313}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123217276}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 49187345}
+  m_Father: {fileID: 255692112}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &255692110
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,6 +691,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 161f8f05f1228d64e89e9007d2d9e109, type: 3}
+--- !u!1 &1123217276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7513924019150882476, guid: 161f8f05f1228d64e89e9007d2d9e109, type: 3}
+  m_PrefabInstance: {fileID: 1089774313}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 49187346}
+  m_Layer: 0
+  m_Name: 'Player (Missing Prefab with guid: 161f8f05f1228d64e89e9007d2d9e109)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1622868378
 GameObject:
   m_ObjectHideFlags: 0

@@ -326,3 +326,560 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 236.909451 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75b7d1a31c5b4f73fd45661b403b04') in 0.008425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.853765 seconds.
+  path: Assets/Scenes/Refeitório
+  artifactKey: Guid(fcc6af1c0cbbe124f8202e06203fccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Refeitório using Guid(fcc6af1c0cbbe124f8202e06203fccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a104fdc0b137de64f9e90e9710787a08') in 0.005302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.213438 seconds.
+  path: Assets/Scenes/Refeitório/Jogo da Comida.unity
+  artifactKey: Guid(b69d792dce938054582e51437e9e585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Refeitório/Jogo da Comida.unity using Guid(b69d792dce938054582e51437e9e585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a499e51e168e643807f98369554592') in 0.004558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.063246 seconds.
+  path: Assets/Image_Assets
+  artifactKey: Guid(b783bfcde3a50794a8156b2d5d6fcda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets using Guid(b783bfcde3a50794a8156b2d5d6fcda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0bad73d98066655cf9cb696853722c0') in 0.008186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052542 seconds.
+  path: Assets/Image_Assets/DialogueBox.png
+  artifactKey: Guid(58bca8bdf4835b1499ce23cbcef6f915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/DialogueBox.png using Guid(58bca8bdf4835b1499ce23cbcef6f915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758012c0e11d7d75f399d0b264754bcf') in 0.061635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Image_Assets/sustem.png
+  artifactKey: Guid(f9a4b0aee57ebba439d037293c9f6d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/sustem.png using Guid(f9a4b0aee57ebba439d037293c9f6d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f90d5a1ef4c8bab3eeb5536a3a817d1') in 0.003793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Image_Assets/PlayBtn.png
+  artifactKey: Guid(3faca136b4e831d40b38f9f94ef9700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/PlayBtn.png using Guid(3faca136b4e831d40b38f9f94ef9700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6832c751fb3cac58bb16d2e8327207') in 0.019703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Image_Assets/PlayBtnLogo.png
+  artifactKey: Guid(b09fb27e972fc92459f474a59bbfa254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/PlayBtnLogo.png using Guid(b09fb27e972fc92459f474a59bbfa254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e3e1a71bb985a3b4827aaa11467aae') in 0.027320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Image_Assets/Logo.png
+  artifactKey: Guid(f3658d43b5f779644ac3abcdb1ea7385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Logo.png using Guid(f3658d43b5f779644ac3abcdb1ea7385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8d4dd20958a7862f4020ce41492131') in 0.014177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.888279 seconds.
+  path: Assets/Image_Assets/Refeitorio
+  artifactKey: Guid(a874d118159ffec44a8c8d34848fe66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio using Guid(a874d118159ffec44a8c8d34848fe66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102a4ee0e68664d10cdd57a53b9c81ce') in 0.004306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024789 seconds.
+  path: Assets/Image_Assets/Refeitorio/completo.png
+  artifactKey: Guid(1e903b90c8ffc1848a11599d645f9770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/completo.png using Guid(1e903b90c8ffc1848a11599d645f9770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d152a818dd434abd19e1f6ff531c668') in 0.011736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Image_Assets/Refeitorio/exemplo.png
+  artifactKey: Guid(53d24a65fb33df742bffc8f4bcc96c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/exemplo.png using Guid(53d24a65fb33df742bffc8f4bcc96c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e754a987e739f9ef4fa1888ece6aecc8') in 0.014311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.790924 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo
+  artifactKey: Guid(b2f8b461847674a4a9c723c9af1ec7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo using Guid(b2f8b461847674a4a9c723c9af1ec7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd707663065e32aed9ff27373c2ce94') in 0.005127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035563 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bandeija.png
+  artifactKey: Guid(7cbaa30c59aaa02409604b9112a10ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bandeija.png using Guid(7cbaa30c59aaa02409604b9112a10ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fdca422059c92687b3c5cb92174717') in 0.014522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/Untitled (7).png
+  artifactKey: Guid(d09dadde6717c7c49a250323bd086262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/Untitled (7).png using Guid(d09dadde6717c7c49a250323bd086262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973d20da1b03f753f530fb6a4aa00ff9') in 0.015036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/Untitled (2).png
+  artifactKey: Guid(4bf2d8b739623fa4c92a25e33be303d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/Untitled (2).png using Guid(4bf2d8b739623fa4c92a25e33be303d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f436920b3cae0b9bab6d0d7ef801c58') in 0.023999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/Untitled (4).png
+  artifactKey: Guid(222e75b1ba019ef429effb093852a104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/Untitled (4).png using Guid(222e75b1ba019ef429effb093852a104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddd73cf688b0e126fb4f3c8aa03c53e') in 0.014677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/plateleira_canudos.png
+  artifactKey: Guid(8782ed9693a2fe24aa3ed039718337d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/plateleira_canudos.png using Guid(8782ed9693a2fe24aa3ed039718337d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42b99d8433d918afef5fd1b052d4a02') in 0.018079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/Untitled (9).png
+  artifactKey: Guid(0eb23acb7c6b6c149a57a3058257ba16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/Untitled (9).png using Guid(0eb23acb7c6b6c149a57a3058257ba16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddc3ce4419f4776d31c1ab85da59be9') in 0.014506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/Untitled (5).png
+  artifactKey: Guid(c089518d52f223742bd3e6ffb62c7bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/Untitled (5).png using Guid(c089518d52f223742bd3e6ffb62c7bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a47c60fe998c71344882fb0802ea061') in 0.015827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bandeija_prato.png
+  artifactKey: Guid(b854938313ae8604fbb07ed27f352e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bandeija_prato.png using Guid(b854938313ae8604fbb07ed27f352e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57414d83afd7cbbc9a278972554f926a') in 0.019897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/Untitled (3).png
+  artifactKey: Guid(70110364be3ed9f458ace831edd00160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/Untitled (3).png using Guid(70110364be3ed9f458ace831edd00160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395689bb2b2481188b5e022b93fd8f3a') in 0.014799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/ex6.png
+  artifactKey: Guid(ee2be66374b46494e8cfbae610fa9e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/ex6.png using Guid(ee2be66374b46494e8cfbae610fa9e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c1e039a65bfef00c69262658625715') in 0.016348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/Untitled (6).png
+  artifactKey: Guid(9156fb06337b2e748b74a73366eb089a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/Untitled (6).png using Guid(9156fb06337b2e748b74a73366eb089a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83f65bc78d45b2adbce68d38b6380e6') in 0.017149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/Untitled (8).png
+  artifactKey: Guid(ce779455b224528409d6f3fe0b7daac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/Untitled (8).png using Guid(ce779455b224528409d6f3fe0b7daac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ff1a14ab33ab6c1e003e77a76de60b') in 0.016329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.205887 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida
+  artifactKey: Guid(84c59ab1c9758f1469ca211c21ecfed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida using Guid(84c59ab1c9758f1469ca211c21ecfed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3591d3167d2da94026b693255642e9a7') in 0.005692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.693666 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta
+  artifactKey: Guid(4ec14a217a9893c418774cbba35ba81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta using Guid(4ec14a217a9893c418774cbba35ba81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af970840c4a05f122c849e744ebee355') in 0.005412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.738254 seconds.
+  path: Assets/Image_Assets/Main_menu
+  artifactKey: Guid(5b1dcf9f7977c2b449e245f19a597416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Main_menu using Guid(5b1dcf9f7977c2b449e245f19a597416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da1b85771c6d44c42a50634c94f0d50') in 0.004338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.284209 seconds.
+  path: Assets/Scenes/Refeitório/Jogo da Pia.unity
+  artifactKey: Guid(6c736f2cd765a334e97c23a8e70b3e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Refeitório/Jogo da Pia.unity using Guid(6c736f2cd765a334e97c23a8e70b3e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e030e72abc493d26700f5b4317257c') in 0.009326 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002892 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Domain Reload Profiling:
+	ReloadAssembly (860ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (708ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2226 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.0 MB.
+System memory in use after: 101.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2705.
+Total: 2.796600 ms (FindLiveObjects: 0.175500 ms CreateObjectMapping: 0.066200 ms MarkObjects: 2.450700 ms  DeleteObjects: 0.103400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46.482321 seconds.
+  path: Assets/Scenes/Refeitório/Jogo da Comida.unity
+  artifactKey: Guid(b69d792dce938054582e51437e9e585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Refeitório/Jogo da Comida.unity using Guid(b69d792dce938054582e51437e9e585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5523fa8dbb20dbc6e61d313e518d9d') in 0.005389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.925583 seconds.
+  path: Assets/Scenes/Refeitório/Jogo da Comida.unity
+  artifactKey: Guid(b69d792dce938054582e51437e9e585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Refeitório/Jogo da Comida.unity using Guid(b69d792dce938054582e51437e9e585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f3f680162a39c57e9afb774029cba1') in 0.002200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.359775 seconds.
+  path: Assets/Scenes/Refeitório/Jogo da Comida.unity
+  artifactKey: Guid(b69d792dce938054582e51437e9e585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Refeitório/Jogo da Comida.unity using Guid(b69d792dce938054582e51437e9e585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7116861847054b1cea6372444634096') in 0.001692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.659638 seconds.
+  path: Assets/Image_Assets/Recepçao
+  artifactKey: Guid(d175071d05f6542468894ea170068799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Recepçao using Guid(d175071d05f6542468894ea170068799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17fbd1b48091f6f0ab1c4b54ad5cbc8a') in 0.006867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042450 seconds.
+  path: Assets/Image_Assets/Recepçao/atencao.png
+  artifactKey: Guid(4ec4b726e8ca4a347992ef51e44acfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Recepçao/atencao.png using Guid(4ec4b726e8ca4a347992ef51e44acfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b61aceb59ed8ab02dc3a1c189444751') in 0.698423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Image_Assets/Recepçao/recepção1,1 1.png
+  artifactKey: Guid(cd8eb5314f92e8149bedef77b5987884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Recepçao/recepção1,1 1.png using Guid(cd8eb5314f92e8149bedef77b5987884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d530f697df583ec2ca61e92e0be6884') in 0.151723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Image_Assets/Recepçao/balcao.png
+  artifactKey: Guid(9bcb41470e42d234bbd635c8a8d27f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Recepçao/balcao.png using Guid(9bcb41470e42d234bbd635c8a8d27f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be246e77c6228fb8fb16bf728576e86') in 0.337884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Image_Assets/Recepçao/recepção1,1.png
+  artifactKey: Guid(5616b7a3acf527b4fbdfd5dd026733b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Recepçao/recepção1,1.png using Guid(5616b7a3acf527b4fbdfd5dd026733b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501c041b4f42d0abe1b13031d0a2d0e6') in 0.281539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Image_Assets/Recepçao/Page 1 (3).png
+  artifactKey: Guid(997ee1edad9ae9c4099e55947c25daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Recepçao/Page 1 (3).png using Guid(997ee1edad9ae9c4099e55947c25daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f15552bc09c8612163b65df265f2769') in 0.431891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.535797 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta/bg_coleta.png
+  artifactKey: Guid(081568020057f4c498ecc414f6b27e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta/bg_coleta.png using Guid(081568020057f4c498ecc414f6b27e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb12628b5fd31087b426db1beacf7cc') in 0.058806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta/copo_descartavel.png
+  artifactKey: Guid(6f2031c778adb884685b323d820ea1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta/copo_descartavel.png using Guid(6f2031c778adb884685b323d820ea1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cee859a5e36c0becdd8946399ac580f') in 0.350659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta/canudo_plastico.png
+  artifactKey: Guid(703d1846b77fb014c932007111095ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta/canudo_plastico.png using Guid(703d1846b77fb014c932007111095ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fa3485f4a1d016047ba301b056543c') in 0.083433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta/guardanapo_amassado.png
+  artifactKey: Guid(f3b6ce84ad764e943ba10c829cd44508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta/guardanapo_amassado.png using Guid(f3b6ce84ad764e943ba10c829cd44508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938e239131bb0fd9d32e0721f7eb11c1') in 0.499406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta/sobras.png
+  artifactKey: Guid(81c18598b853a57428dfe62020e5afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta/sobras.png using Guid(81c18598b853a57428dfe62020e5afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e333cb37e45129652e749ed89d581a') in 0.060861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta/copo.png
+  artifactKey: Guid(8461ce82f67bd4742b6d3f4a34854b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta/copo.png using Guid(8461ce82f67bd4742b6d3f4a34854b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45018a6749748952d23ae536b8eb9b1f') in 0.057939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta/ex7.png
+  artifactKey: Guid(9d28b3c983d715f4a85e32f6344d3a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta/ex7.png using Guid(9d28b3c983d715f4a85e32f6344d3a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e4e5bff5ec9ed1c592af4867ccbff2') in 0.143452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta/lata.png
+  artifactKey: Guid(3ab87e9906afe854f8df06cc9fbb2fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta/lata.png using Guid(3ab87e9906afe854f8df06cc9fbb2fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caaa680abd05ac2c1273142ba5a25fa2') in 0.414377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/guardanapos_papel.png
+  artifactKey: Guid(cc2301b41b0d24a49905dab2ee296b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/guardanapos_papel.png using Guid(cc2301b41b0d24a49905dab2ee296b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beab8a246bc84f67f6c9dec36feba5b5') in 0.303565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/bg_talheres.png
+  artifactKey: Guid(dc5ee5aed3a1c154eb7d96e9bff54cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/bg_talheres.png using Guid(dc5ee5aed3a1c154eb7d96e9bff54cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5b939d12d513d758cc4a67f58051f1') in 0.102166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/talheres_metal.png
+  artifactKey: Guid(77bc81dff72139c429f0fb0971fb702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/talheres_metal.png using Guid(77bc81dff72139c429f0fb0971fb702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b646c705106dfb3a6fa1a3b4230bd1a0') in 0.076000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/pers_bandeija_comida.png
+  artifactKey: Guid(ed8c5c6e69e9e6f45b92adec3304f111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/pers_bandeija_comida.png using Guid(ed8c5c6e69e9e6f45b92adec3304f111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51f4a6c686b740bf7d4c219d65e0d0a') in 0.091999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003477 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/ex5.png
+  artifactKey: Guid(fbf2e8055ae5875458482c9a8de1a6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/ex5.png using Guid(fbf2e8055ae5875458482c9a8de1a6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61809dba1624eae15daeaad18311ac36') in 0.110426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/guardanapo.png
+  artifactKey: Guid(76257e5a79e671d4896b8e0300aeae4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/guardanapo.png using Guid(76257e5a79e671d4896b8e0300aeae4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5538c5c0f8208cd0d874c885a69ca98b') in 0.451208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/ex4.png
+  artifactKey: Guid(56e5b2d56384cab4fb91232c443aa2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/ex4.png using Guid(56e5b2d56384cab4fb91232c443aa2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e259aedb07fcac1126bbc91e16ebdd2d') in 0.175061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/talheres_descartaveis.png
+  artifactKey: Guid(a87439de1f37a834584c5309b1f70fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/talheres_descartaveis.png using Guid(a87439de1f37a834584c5309b1f70fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ffe46131569ef8b9fe5b7b4b896426') in 0.103508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida
+  artifactKey: Guid(f7555a05de17d2e45929317a64d903e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida using Guid(f7555a05de17d2e45929317a64d903e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9843e13fb5ab8ca77f958d6acaf4d4') in 0.004062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/bandeija_descartaveis.png
+  artifactKey: Guid(eaaab84594cc9ce4da6ae2b40bf6672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/bandeija_descartaveis.png using Guid(eaaab84594cc9ce4da6ae2b40bf6672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ed6681666c6f0d8b8d3a44610cb4f4') in 0.096603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/canudos_plastico.png
+  artifactKey: Guid(e0d5b883df0cad24eb3e5d5541a5362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/canudos_plastico.png using Guid(e0d5b883df0cad24eb3e5d5541a5362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f2ee266b0a91cfdea4fcc5380e916b') in 0.071239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/copo_descartavel.png
+  artifactKey: Guid(fd2acf8da4bff1f42b5e39c39513c72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/copo_descartavel.png using Guid(fd2acf8da4bff1f42b5e39c39513c72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1ebd72040e706cd9bf10fde5417696') in 0.025733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/ex1.png
+  artifactKey: Guid(a89b4f88aba096649a59ef9fa630b01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/ex1.png using Guid(a89b4f88aba096649a59ef9fa630b01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421e9354eb110ce11172d4fed23991f4') in 0.190684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/lata.png
+  artifactKey: Guid(cb4ee3b6e14527242833d85ceb54cd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/lata.png using Guid(cb4ee3b6e14527242833d85ceb54cd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6385fb6142d75081e6e4de1b173bb4') in 0.016137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/canudo_plastico.png
+  artifactKey: Guid(f9d271e1c8d4b8a4da455618b25a652c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/canudo_plastico.png using Guid(f9d271e1c8d4b8a4da455618b25a652c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f073e5a4964bd2ac33de714bb14e4a9b') in 0.011746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/ex3.png
+  artifactKey: Guid(d69db46541ff7a74092262025832a019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/ex3.png using Guid(d69db46541ff7a74092262025832a019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801c2d74f0375c3d3a9862bc391058d3') in 0.073267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/canudos_metal.png
+  artifactKey: Guid(972c59a183a3f95438d3f65a0bfe89e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/canudos_metal.png using Guid(972c59a183a3f95438d3f65a0bfe89e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03390d009e82d4529a59e7265f4aca12') in 0.039844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/copo.png
+  artifactKey: Guid(86e23b8a84863284aaa166e5b38bf483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/copo.png using Guid(86e23b8a84863284aaa166e5b38bf483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abc5e6b090d5b06a6be634ae5302ca6') in 0.021111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/ex2.png
+  artifactKey: Guid(130941a8a744f5d43b2ba92e01238652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/ex2.png using Guid(130941a8a744f5d43b2ba92e01238652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b69f760842463d3f853a42c9c3ccd7c') in 0.104117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/copos_descartaveis.png
+  artifactKey: Guid(a3a6377d28281514c8c9a9226bb2b057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/copos_descartaveis.png using Guid(a3a6377d28281514c8c9a9226bb2b057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955428e168b29029c0614b37f97015dc') in 0.049079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/bg_bebidas.png
+  artifactKey: Guid(f333ff82ed120044a960b065e2ebc5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/bg_bebidas.png using Guid(f333ff82ed120044a960b065e2ebc5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934ec3e066c362c228623859d334a3aa') in 0.152170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/garrafa_vidro.png
+  artifactKey: Guid(d5c7f016f68bb9a41b90363b1e48b781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/garrafa_vidro.png using Guid(d5c7f016f68bb9a41b90363b1e48b781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96077a4d4b49f919ed29a27e1bb41dcd') in 0.146149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/bandeija_metal.png
+  artifactKey: Guid(1fe6fc4ee66bb934aa6199397b5f9343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/bandeija_metal.png using Guid(1fe6fc4ee66bb934aa6199397b5f9343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a58152f29c5fafa7802aaa909e54f29') in 0.069053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/canudo_metal.png
+  artifactKey: Guid(0f6608894e8bc764eb4743ba41740741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/bebida/canudo_metal.png using Guid(0f6608894e8bc764eb4743ba41740741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a966b07cf8835e344a54694999f7758') in 0.072382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/guardanapos_reut.png
+  artifactKey: Guid(3d0821c513ed0c64a9ccce568693aa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/comida/guardanapos_reut.png using Guid(3d0821c513ed0c64a9ccce568693aa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12544b0842244b45e9ead2c337c2fe9') in 0.266931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta/pers_bandeija_coleta.png
+  artifactKey: Guid(094628e332960e24b9d6c551509c64b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Fase cozinha, lixo/jogo_coleta/pers_bandeija_coleta.png using Guid(094628e332960e24b9d6c551509c64b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f57fee048babf57e74cf6afa7f253b') in 0.077492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 151.740120 seconds.
+  path: Assets/Image_Assets/gear.jpg
+  artifactKey: Guid(383b7dfb7317deb4b9e6bb2c8d88803c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/gear.jpg using Guid(383b7dfb7317deb4b9e6bb2c8d88803c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc695ed4eb74843e7b6421e86497c5c5') in 0.030905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.148377 seconds.
+  path: Assets/Scenes/Main_Menu.unity
+  artifactKey: Guid(6530088a984c5324582ef8f8b7916958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main_Menu.unity using Guid(6530088a984c5324582ef8f8b7916958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8273dd5abc6e49d4958b2d111f75d4d') in 0.004993 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.067138 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.996 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1997ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1738ms)
+			LoadAssemblies (1054ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (336ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2226 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.1 MB.
+System memory in use after: 101.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2729.
+Total: 4.541700 ms (FindLiveObjects: 0.358700 ms CreateObjectMapping: 0.090700 ms MarkObjects: 3.972800 ms  DeleteObjects: 0.118500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -89,6 +89,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 840feed09937b304498932d5d95bf1be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sink: []
+  Dryer: []
 --- !u!1 &855673220470627552
 GameObject:
   m_ObjectHideFlags: 0
