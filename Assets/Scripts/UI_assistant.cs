@@ -140,7 +140,7 @@ public class UI_assistant : MonoBehaviour
                 }
                 else
                 {
-                   
+
 
                 }
 
