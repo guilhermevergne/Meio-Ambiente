@@ -112,7 +112,8 @@ public class UI_assistant : MonoBehaviour
                 }
                 else
                 {
-                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Para prosseguir, mama minha pica", .02f, true, true);
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Parabéns, você escolheu a pia mais adequada. " +
+                        "Agora que já lavou as mãos, seque-as da melhor forma para o meio ambiente", .02f, true, true);
                 }
             };
 
@@ -124,7 +125,8 @@ public class UI_assistant : MonoBehaviour
                 }
                 else
                 {
-                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Erradao parceiro", .02f, true, true);
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Infelizmente essa não é a pia correta. " +
+                        "Agora que já lavou as mãos, seque-as da melhor forma para o meio ambiente", .02f, true, true);
                 }
             };
 
@@ -136,7 +138,8 @@ public class UI_assistant : MonoBehaviour
                 }
                 else
                 {
-                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Errou otario", .02f, true, true);
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Infelizmente essa não é a pia correta. " +
+                        "Agora que já lavou as mãos, seque-as da melhor forma para o meio ambiente", .02f, true, true);
                 }
             };
         }

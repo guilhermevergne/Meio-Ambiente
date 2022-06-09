@@ -11,4 +11,10 @@ public class SustemManager : MonoBehaviour
     {
         SustemDisplay.text = PlayerPrefs.GetInt("Sustem").ToString();
     }
+
+    public void SustemAdd(int i)
+    {
+        PlayerPrefs.SetInt("Sustem", PlayerPrefs.GetInt("Sustem") + i);
+    }
+
 }

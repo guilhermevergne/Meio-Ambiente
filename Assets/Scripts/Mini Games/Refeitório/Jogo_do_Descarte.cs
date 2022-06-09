@@ -32,7 +32,7 @@ public class Jogo_do_Descarte : MonoBehaviour
     {
         string waste = PlayerPrefs.GetString("Selected Waste");
         string lixeira = PlayerPrefs.GetString("Selected Lixeira");
-        if (waste == "Bedida" && lixeira == "Amarela") return true;
+        if (waste == "Bebida" && lixeira == "Amarela") return true;
         if (waste == "Papelzinho" && lixeira == "Azul") return true;
         if (waste == "Comida" && lixeira == "Marrom") return true;
         if (waste == "Talheres" && lixeira == "Vermelho") return true;
