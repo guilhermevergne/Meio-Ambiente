@@ -99,51 +99,45 @@ public class UI_assistant : MonoBehaviour
                 textWriterSingle = TextWriter.AddWriter_Static(messageText, "Hum… que cheiro bom, está na hora do almoço." +
                     "\nAproveite e monte a sua refeição.", .02f, true, true);
             }
-            transform.Find("DialogueText").GetComponent<Button_UI>().ClickFunc = () =>
-            {
-                if (i == 1)
-                {
-                    display = GameObject.FindGameObjectWithTag("TextDisplay");
-                    display.SetActive(!display.activeSelf);
-                }
-
-                if (textWriterSingle != null && textWriterSingle.isactive())
-                {
-                    textWriterSingle.WriteAllandDestroy();
-
-                }
-                else
-                {
-                    string[] messageArray = new string[]{
-
-                };
-                    //string message = messageArray[i];
-                    //textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .05f, true, true);
-
-                }
-                i++;
-            };
+            
         }
         else if (SceneManager.GetActiveScene().buildIndex == 3)
         {
             messageText = transform.Find("DialogueText").GetComponent<Text>();
-
-            //display = GameObject.FindGameObjectWithTag("TextDisplay");
-            //display.SetActive(display.activeSelf);messageText = transform.Find("DialogueText").GetComponent<Text>();
-
-            transform.Find("DialogueText").GetComponent<Button_UI>().ClickFunc = () =>
+            GameObject.Find("Btn0").GetComponent<Button_UI>().ClickFunc = () =>
             {
-
                 if (textWriterSingle != null && textWriterSingle.isactive())
                 {
                     textWriterSingle.WriteAllandDestroy();
                 }
                 else
                 {
-
-
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Para prosseguir, mama minha pica", .02f, true, true);
                 }
+            };
 
+            GameObject.Find("Btn1").GetComponent<Button_UI>().ClickFunc = () =>
+            {
+                if (textWriterSingle != null && textWriterSingle.isactive())
+                {
+                    textWriterSingle.WriteAllandDestroy();
+                }
+                else
+                {
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Erradao parceiro", .02f, true, true);
+                }
+            };
+
+            GameObject.Find("Btn2").GetComponent<Button_UI>().ClickFunc = () =>
+            {
+                if (textWriterSingle != null && textWriterSingle.isactive())
+                {
+                    textWriterSingle.WriteAllandDestroy();
+                }
+                else
+                {
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Errou otario", .02f, true, true);
+                }
             };
         }
 
@@ -173,7 +167,14 @@ public class UI_assistant : MonoBehaviour
         }
         if (SceneManager.GetActiveScene().buildIndex == 3)
         {
-            textWriterSingle = TextWriter.AddWriter_Static(messageText, "Escolha a pia mais ecologicamente adequada!", .05f, true, true);
+            if (textWriterSingle != null && textWriterSingle.isactive())
+            {
+                textWriterSingle.WriteAllandDestroy();
+            }
+            else
+            {
+                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Escolha a pia mais ecologicamente adequada!", .02f, true, true);
+            }
         }
 
 
