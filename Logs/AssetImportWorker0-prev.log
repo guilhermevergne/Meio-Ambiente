@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16245 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'pt' Physical Memory: 16313 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,254 +11,684 @@ C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-H:/Coding/Projects/MeioAmbienteGit
+D:/Documents/Github/Meio-Ambiente
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55158
-Successfully changed project path to: H:/Coding/Projects/MeioAmbienteGit
-H:/Coding/Projects/MeioAmbienteGit
+51224
+Successfully changed project path to: D:/Documents/Github/Meio-Ambiente
+D:/Documents/Github/Meio-Ambiente
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path H:/Coding/Projects/MeioAmbienteGit/Assets
+[Subsystems] Discovering subsystems at path D:/Documents/Github/Meio-Ambiente/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e82)
+    Renderer: Radeon RX 5500 XT (ID=0x7340)
     Vendor:   
-    VRAM:     8010 MB
-    Driver:   30.0.14.9709
+    VRAM:     4055 MB
+    Driver:   30.0.13023.4001
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001646 seconds.
+Registered in 0.002178 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 52.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.542 seconds
+- Completed reload, in  0.792 seconds
 Domain Reload Profiling:
-	ReloadAssembly (543ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (792ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (418ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (650ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (137ms)
+			SetupTypeCache (159ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (154ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (326ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (42ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002707 seconds.
+Registered in 0.003777 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 60.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.008 seconds
+- Completed reload, in  1.529 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1009ms)
-		BeginReloadAssembly (137ms)
+	ReloadAssembly (1534ms)
+		BeginReloadAssembly (240ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (816ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1198ms)
+			LoadAssemblies (175ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (309ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (173ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2231 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.8 MB.
-System memory in use after: 97.8 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2663.
-Total: 4.413100 ms (FindLiveObjects: 0.778400 ms CreateObjectMapping: 0.118200 ms MarkObjects: 3.171100 ms  DeleteObjects: 0.342000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/exemplo.png
-  artifactKey: Guid(c4d798bcf4e634d47a49cfc97396f90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/exemplo.png using Guid(c4d798bcf4e634d47a49cfc97396f90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f303713adedd2234233a41325d2bd5') in 0.099309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.919415 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75b7d1a31c5b4f73fd45661b403b04') in 0.005840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.303097 seconds.
-  path: Assets/Scenes/Main_Menu.unity
-  artifactKey: Guid(6530088a984c5324582ef8f8b7916958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main_Menu.unity using Guid(6530088a984c5324582ef8f8b7916958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8273dd5abc6e49d4958b2d111f75d4d') in 0.007183 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002397 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.855 seconds
-Domain Reload Profiling:
-	ReloadAssembly (856ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (695ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (253ms)
+			SetupTypeCache (347ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (248ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (471ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2231 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.1 MB.
+System memory in use after: 98.2 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2672.
+Total: 4.228900 ms (FindLiveObjects: 0.197800 ms CreateObjectMapping: 0.113900 ms MarkObjects: 3.821400 ms  DeleteObjects: 0.093300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Char_Instantiate.cs
+  artifactKey: Guid(9ca4ef7eb5e3cd247b4080d013f2698f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Char_Instantiate.cs using Guid(9ca4ef7eb5e3cd247b4080d013f2698f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31a1417b8c0ed02a7f1fb3c097f5469') in 0.141346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1209.353789 seconds.
+  path: Assets/Scenes/Refeitorio.unity
+  artifactKey: Guid(7eceaf7f46f5be3468af6f8396a69ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Refeitorio.unity using Guid(7eceaf7f46f5be3468af6f8396a69ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb51bde35fd7f3e8ca4c39c5cb541a8') in 0.016223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.687300 seconds.
+  path: Assets/Scenes/Refeitório/Refeitorio.unity
+  artifactKey: Guid(baebac1815240434e93eb28df9a1f083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Refeitório/Refeitorio.unity using Guid(baebac1815240434e93eb28df9a1f083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629dbfdfadb0a67999b8a0cebd83ce70') in 0.006051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 110.976548 seconds.
+  path: Assets/Image_Assets/Refeitorio/Jogo da Pia/fundo.png
+  artifactKey: Guid(e1e2b14a9607ddf48b7259ae3ec4a8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Jogo da Pia/fundo.png using Guid(e1e2b14a9607ddf48b7259ae3ec4a8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d918f6e775ab8d7c6b4478fc5cd29ca') in 0.379605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/Fundo.png
+  artifactKey: Guid(b8ff51472c4c6fc40bb5ebedd5fda682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/Fundo.png using Guid(b8ff51472c4c6fc40bb5ebedd5fda682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8fa85a87436a52d71ed7086120b53a') in 0.087574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Image_Assets/Character Creator/Characters/Personagens/Female/FWL.png
+  artifactKey: Guid(0928187edcbf17c47a3e70e5e882d993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/Characters/Personagens/Female/FWL.png using Guid(0928187edcbf17c47a3e70e5e882d993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fd2c6e89c935b09ca479b629eec6ac') in 0.035953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Image_Assets/Refeitorio/Jogo da Pia/fundo2.png
+  artifactKey: Guid(767207f5716897b4f95a41fc465d0556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/Jogo da Pia/fundo2.png using Guid(767207f5716897b4f95a41fc465d0556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0bd7ab11a60f7e056d57e0107fdda1') in 0.080722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/Hands.png
+  artifactKey: Guid(aac6024869c2d3548b83879bd67ee640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/Hands.png using Guid(aac6024869c2d3548b83879bd67ee640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63a7e6e11541beb126b4dd28e6adfe5') in 0.066795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Image_Assets/Character Creator/Characters/Personagens/Female/FWS.png
+  artifactKey: Guid(10aae0b94859d5a4a99e526464276f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/Characters/Personagens/Female/FWS.png using Guid(10aae0b94859d5a4a99e526464276f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d66773b1097500a155948a1d57e882e') in 0.252980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.222086 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/Freecot logo (1).png
+  artifactKey: Guid(13487d02f945f12448187fd6d306ae09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/Freecot logo (1).png using Guid(13487d02f945f12448187fd6d306ae09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a85c7f9f19cb03c18028033eef0e5b') in 0.119118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Image_Assets/Character Creator/Characters/Personagens/Female/FBL.png
+  artifactKey: Guid(336e57ebb4c7dfd479746a8015c8b6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/Characters/Personagens/Female/FBL.png using Guid(336e57ebb4c7dfd479746a8015c8b6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1e0637c80b5b76183866451241a09a') in 0.047280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Image_Assets/Character Creator/Characters/Personagens/Female/FBS.png
+  artifactKey: Guid(c75bd15a80bb90b488a55679584d42ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/Characters/Personagens/Female/FBS.png using Guid(c75bd15a80bb90b488a55679584d42ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a619c3584a00a81994080b52d36a2239') in 0.243908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/_/Stuff/CodeMonkey/Assets/Circle.psd
+  artifactKey: Guid(e63e5c0479e18114094563df8d6400f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_/Stuff/CodeMonkey/Assets/Circle.psd using Guid(e63e5c0479e18114094563df8d6400f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999b70b82a7836fe335c44c75f772d6e') in 0.337638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor1/camisa1.png
+  artifactKey: Guid(cd47f0f419d8ec848b7aa9f15e46b584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor1/camisa1.png using Guid(cd47f0f419d8ec848b7aa9f15e46b584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab9bbd3bc732bc1bee31d4de19b7aad') in 0.119571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calçado/Select/calçado3.png
+  artifactKey: Guid(fc816b3653f19144d9ce004cd0402646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calçado/Select/calçado3.png using Guid(fc816b3653f19144d9ce004cd0402646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9101ad8f676b340186f9b68017803159') in 0.326195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/calça/Select/calça3.png
+  artifactKey: Guid(293ac3ec041d1ee4ebc50f2c665bc1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/calça/Select/calça3.png using Guid(293ac3ec041d1ee4ebc50f2c665bc1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a9d8a189f3f1bc5c84a9528111c4e5') in 0.118745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/calça/Select/calça1.png
+  artifactKey: Guid(ccc41ae563e2aa34d98d45980179bb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/calça/Select/calça1.png using Guid(ccc41ae563e2aa34d98d45980179bb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d78470689b29cb97527fbff87e8af50') in 0.056316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cabeça/Select/cabeça3.png
+  artifactKey: Guid(4ec77b539dac90f4ab0b31244b8d9f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cabeça/Select/cabeça3.png using Guid(4ec77b539dac90f4ab0b31244b8d9f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9efd2f0e63079fd4db4964c9d2d94822') in 0.191152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor1/cabeça2.png
+  artifactKey: Guid(623f8fcdad2864648993f83eefc6e994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor1/cabeça2.png using Guid(623f8fcdad2864648993f83eefc6e994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a438124430fe7248c592f86386566c15') in 0.055808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/calça/Select/calça2.png
+  artifactKey: Guid(a351ab80aadd22340a8eb08da4750023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/calça/Select/calça2.png using Guid(a351ab80aadd22340a8eb08da4750023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e89d658561e9854ffc6cad4e727c15') in 0.074199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor1/cabeça0.png
+  artifactKey: Guid(ed439f5478e3d364f966d820152d9b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor1/cabeça0.png using Guid(ed439f5478e3d364f966d820152d9b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4508297e03ca513195777430c904c0cd') in 0.115777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calça/calça2.png
+  artifactKey: Guid(d6eb793788532bb40803c2e052b8126f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calça/calça2.png using Guid(d6eb793788532bb40803c2e052b8126f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64948f7791ebf7414e93bfe7857ab735') in 0.068330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calça/Select/calça2.png
+  artifactKey: Guid(05a4c1b7d56042048932a985d6bd9c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calça/Select/calça2.png using Guid(05a4c1b7d56042048932a985d6bd9c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789cc70c65a192a219194c099183fc37') in 0.112748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cabeça/cabeça4.png
+  artifactKey: Guid(bc6c001798b07f54da11c30594492784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cabeça/cabeça4.png using Guid(bc6c001798b07f54da11c30594492784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c34c120253cc7f17add8b5400d09fc') in 0.177579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Image_Assets/Main_menu/Animation/7.png
+  artifactKey: Guid(d2a79667d2469bd4c850ba82dea6020f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Main_menu/Animation/7.png using Guid(d2a79667d2469bd4c850ba82dea6020f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0537597400a191d0f762dd3795be42c5') in 0.204555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calça/calça3.png
+  artifactKey: Guid(cb7a1de1d1de659448553a6360ed1f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calça/calça3.png using Guid(cb7a1de1d1de659448553a6360ed1f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a75f4ad5501d886be7816fd97f2b81') in 0.056095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/camisa/Select/camisa3.png
+  artifactKey: Guid(59cf4a57941eb464cb27c663eda24776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/camisa/Select/camisa3.png using Guid(59cf4a57941eb464cb27c663eda24776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02472387e94d40631900458ee6c9c58') in 0.077249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Image_Assets/Recepçao/balcao.png
+  artifactKey: Guid(9bcb41470e42d234bbd635c8a8d27f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Recepçao/balcao.png using Guid(9bcb41470e42d234bbd635c8a8d27f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd1b9bb54399c3b3e3588566a85cfea') in 0.359856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/calça/calça3.png
+  artifactKey: Guid(4d5fd98a728005f4080538ffa4e9ae88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/calça/calça3.png using Guid(4d5fd98a728005f4080538ffa4e9ae88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207ede3e4f65e98e1b2ecce7cefaa82e') in 0.094297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/camisa/Select/camisa1.png
+  artifactKey: Guid(47063d82f464ce64481d8b0f5192ee1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/camisa/Select/camisa1.png using Guid(47063d82f464ce64481d8b0f5192ee1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26edc886e9d3f040d0f9fe643a0bbc25') in 0.050674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor0/cabeça2.png
+  artifactKey: Guid(e0eb1e387e84e7442be11c1acfbf6389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor0/cabeça2.png using Guid(e0eb1e387e84e7442be11c1acfbf6389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59357c458c836f4dcf2e6238099dd28') in 0.086641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Image_Assets/Main_menu/Animation/3.png
+  artifactKey: Guid(42066ade752021549949c1c4a1dcf0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Main_menu/Animation/3.png using Guid(42066ade752021549949c1c4a1dcf0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f1044622e68887f3f03365c3d07dfe') in 0.098209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Image_Assets/Character Creator/Characters/balconista/Balconista2.png
+  artifactKey: Guid(ebfe52a97bd9a794b90ddb8ef0cf04c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/Characters/balconista/Balconista2.png using Guid(ebfe52a97bd9a794b90ddb8ef0cf04c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796d36b07adf8595d60f03f6f79996ed') in 0.180015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Image_Assets/Main_menu/Animation/4.png
+  artifactKey: Guid(2a81541abc9bc7f4d95a919bfc85bc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Main_menu/Animation/4.png using Guid(2a81541abc9bc7f4d95a919bfc85bc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fac9fabefd0ee1d1090c7ecd416bd80') in 0.143793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Image_Assets/Character Creator/Characters/balconista/Balconista3.png
+  artifactKey: Guid(23692f986383b404a855ae9f9d2a3ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/Characters/balconista/Balconista3.png using Guid(23692f986383b404a855ae9f9d2a3ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aef1fd3dc098524bed43e18ddf9d28c') in 0.209300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor1/camisa0.png
+  artifactKey: Guid(70586055739af094e83b76f21c3652f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor1/camisa0.png using Guid(70586055739af094e83b76f21c3652f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910e77043b9b8c84f70975d22538e2f9') in 0.144799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cor/c2.png
+  artifactKey: Guid(a38039a090bb7c94b9ee8ad395ae0a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cor/c2.png using Guid(a38039a090bb7c94b9ee8ad395ae0a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa514b298f9e8a6ccef358cae22d4a6f') in 0.065690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calça/Select/calça3.png
+  artifactKey: Guid(4f4b896d243e3cd4eb73e4c7ccca0528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calça/Select/calça3.png using Guid(4f4b896d243e3cd4eb73e4c7ccca0528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492d825011135204d675247430c74d27') in 0.068614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Image_Assets/Main_menu/Animation/2.png
+  artifactKey: Guid(29601affbf6b41546a55db8b1516d96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Main_menu/Animation/2.png using Guid(29601affbf6b41546a55db8b1516d96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca92abe9b28144060bc20a699cc84e7') in 0.101738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor0/calça2.png
+  artifactKey: Guid(fd9e562aadb93114186421b4bc5c2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor0/calça2.png using Guid(fd9e562aadb93114186421b4bc5c2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f48fae041c1e2a0cbc2aaa50a14ba8') in 0.125468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calçado/calçado2.png
+  artifactKey: Guid(2bca62c33b61ca44dad1995f3e4ff0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calçado/calçado2.png using Guid(2bca62c33b61ca44dad1995f3e4ff0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199e665c393599b44bd8d06adccd9764') in 0.071286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/camisa/camisa3.png
+  artifactKey: Guid(3d1b9ae72611bfa49b57ee41de419943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/camisa/camisa3.png using Guid(3d1b9ae72611bfa49b57ee41de419943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b7390e04d2c3a4f8b6170d6f0bd070') in 0.060770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Image_Assets/Character Creator/Characters/balconista/Balconista1.png
+  artifactKey: Guid(b82ac7ab2d187194db8222d652230632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/Characters/balconista/Balconista1.png using Guid(b82ac7ab2d187194db8222d652230632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a112b02947c627ab488ef8cd53eda6') in 0.168122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cabeça/cabeça1.png
+  artifactKey: Guid(d62cc011093ec1f48993f90ff06de0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cabeça/cabeça1.png using Guid(d62cc011093ec1f48993f90ff06de0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d3bf1dd176466ebefd13a196267922') in 0.071899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cor/c1.png
+  artifactKey: Guid(88890d3e137089744848652f35c24361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cor/c1.png using Guid(88890d3e137089744848652f35c24361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a866f20644b23e46d2c4562bd25f9ff') in 0.037471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Image_Assets/Main_menu/Animation/9.png
+  artifactKey: Guid(f45dc86865a12e449b316e76ebcf7ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Main_menu/Animation/9.png using Guid(f45dc86865a12e449b316e76ebcf7ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716f749259001bac2cb777292fd72845') in 0.214506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calçado/Select/calçado2.png
+  artifactKey: Guid(aea7d8a6062dd9f45a7e2355d483ea63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calçado/Select/calçado2.png using Guid(aea7d8a6062dd9f45a7e2355d483ea63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500c492ad59fdbbd9b4afef139d58538') in 0.203130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calça/Select/calça1.png
+  artifactKey: Guid(51144c61d1c072a499bdab14817cdbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calça/Select/calça1.png using Guid(51144c61d1c072a499bdab14817cdbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5301472b249a029f9bce08e0d7509d1') in 0.151378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor0/cabeça1.png
+  artifactKey: Guid(fe6e86f262069f946b3742b8def62e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor0/cabeça1.png using Guid(fe6e86f262069f946b3742b8def62e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb42de7ef987985d7d6f310dffc07e68') in 0.071865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calçado/Select/calçado1.png
+  artifactKey: Guid(84a715f72b818b448b4d9bb662a02c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calçado/Select/calçado1.png using Guid(84a715f72b818b448b4d9bb662a02c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac168393f7e8c7af91614e479334bad7') in 0.156088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cabeça/Select/cabeça4.png
+  artifactKey: Guid(b7fdd19f6e9546b4aba39c6228a75c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cabeça/Select/cabeça4.png using Guid(b7fdd19f6e9546b4aba39c6228a75c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff8add617e8783233bb5977736319f4') in 0.210532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor1/cabeça1.png
+  artifactKey: Guid(acc6dff0b6124fb4eb51ae3631f4406d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor1/cabeça1.png using Guid(acc6dff0b6124fb4eb51ae3631f4406d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d43c63fd70e04e24bb32a2a88f703d') in 0.095139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor1/calça0.png
+  artifactKey: Guid(04193ba6e81ce4b44ac3385012ad99a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor1/calça0.png using Guid(04193ba6e81ce4b44ac3385012ad99a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dffdb57f5d3bde9db087e5023e1a377') in 0.120598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calça/calça1.png
+  artifactKey: Guid(ec49b680ab7538744b8c91821820c81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calça/calça1.png using Guid(ec49b680ab7538744b8c91821820c81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb20c6557e21b7f1e16d862dcddb3aa3') in 0.186036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Image_Assets/Main_menu/Animation/8.png
+  artifactKey: Guid(d4d98286f393e724ab983f9d542aeb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Main_menu/Animation/8.png using Guid(d4d98286f393e724ab983f9d542aeb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7639e48ae1583f86db356799896fdc85') in 0.182510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cabeça/Select/cabeça2.png
+  artifactKey: Guid(08cd15d154a5ba443befcb48f79b4ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cabeça/Select/cabeça2.png using Guid(08cd15d154a5ba443befcb48f79b4ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f465cd0701d4930d0b1167b8e82291e9') in 0.058673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Image_Assets/Main_menu/Animation/5.png
+  artifactKey: Guid(f847179f1988aba44937217b5f06f3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Main_menu/Animation/5.png using Guid(f847179f1988aba44937217b5f06f3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013ec6654dbb8821106925072720fc6f') in 0.149251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Image_Assets/Main_menu/Animation/14.png
+  artifactKey: Guid(64017fdc4a73eac4cba113bd0b244a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Main_menu/Animation/14.png using Guid(64017fdc4a73eac4cba113bd0b244a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adecea737526f06e533862c7d15db653') in 0.088377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor0/cabeça0.png
+  artifactKey: Guid(b277dfb2f0248a847b852944e27738c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor0/cabeça0.png using Guid(b277dfb2f0248a847b852944e27738c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bc608931f12b8007801b2c62bd8fce') in 0.075329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cabeça/cabeça3.png
+  artifactKey: Guid(b82be195e54b2e647a46aa01b2da912a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cabeça/cabeça3.png using Guid(b82be195e54b2e647a46aa01b2da912a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7a06ba23f162da3464eebdb2f0885c') in 0.164930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calçado/calçado3.png
+  artifactKey: Guid(7547bdce9af2d4a438b95605550ae6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calçado/calçado3.png using Guid(7547bdce9af2d4a438b95605550ae6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d07911b0cac7cb679ad4a7ee077a28') in 0.067207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor1/cabeça3.png
+  artifactKey: Guid(fc1b53cf6eb73dd43868198c788bfee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor1/cabeça3.png using Guid(fc1b53cf6eb73dd43868198c788bfee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91e9fd346f7aebbec540a598564da1e') in 0.258251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Image_Assets/Main_menu/Animation/11.png
+  artifactKey: Guid(f294c16d69c1c0a489ac88fe79a0d290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Main_menu/Animation/11.png using Guid(f294c16d69c1c0a489ac88fe79a0d290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57fbf57fdf2a4a88f8815984af08422') in 0.124603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor0/camisa2.png
+  artifactKey: Guid(165479f7e19e64d4394f014ddc22afe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor0/camisa2.png using Guid(165479f7e19e64d4394f014ddc22afe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d9875e0183158428f43dc48bf19d7b') in 0.157200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor0/camisa0.png
+  artifactKey: Guid(e68f942ba1830da499d7abfe7bc416cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor0/camisa0.png using Guid(e68f942ba1830da499d7abfe7bc416cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a65082039b19f5839085902a9b6a00') in 0.135916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cabeça/Select/cabeça1.png
+  artifactKey: Guid(85e263f319b78424fbe04db1d3bae189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cabeça/Select/cabeça1.png using Guid(85e263f319b78424fbe04db1d3bae189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71fceb4a193dddd6cb213a5ad736fa4') in 0.157370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Image_Assets/Main_menu/Animation/10.png
+  artifactKey: Guid(3847ba37b869e9443b14c2bae7a8929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Main_menu/Animation/10.png using Guid(3847ba37b869e9443b14c2bae7a8929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122b894bf491926bcfad3775921ba7c1') in 0.158007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Image_Assets/Main_menu/Animation/6.png
+  artifactKey: Guid(389c12888ca72ce4aa6d249b24586f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Main_menu/Animation/6.png using Guid(389c12888ca72ce4aa6d249b24586f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f45e6c8e3d3feaf30d2a3d5aadbe77') in 0.120912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calçado/calçado1.png
+  artifactKey: Guid(a555037a55a0b834798cde59eb9f35d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/calçado/calçado1.png using Guid(a555037a55a0b834798cde59eb9f35d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1228f4d90ebd7489f0da126b6d17e961') in 0.167124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/calça1.png
+  artifactKey: Guid(e266173dbcc27bc4e959239b21493641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/calça1.png using Guid(e266173dbcc27bc4e959239b21493641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8280910f1a8ebd29a43f845b9481490f') in 0.076092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Image_Assets/Refeitorio/exemplo.png
+  artifactKey: Guid(53d24a65fb33df742bffc8f4bcc96c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Refeitorio/exemplo.png using Guid(53d24a65fb33df742bffc8f4bcc96c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198c2b87396c6abe0e3616ee2a981945') in 0.137397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/camisa/Select/camisa2.png
+  artifactKey: Guid(f21d5d138487f1d4a952ccc614d330ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/camisa/Select/camisa2.png using Guid(f21d5d138487f1d4a952ccc614d330ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4b4b9f3aa0165e77715e7dc82606b3') in 0.063524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor0/cabeça3.png
+  artifactKey: Guid(5e0b9d7d4d4654244bc06debd9a269f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor0/cabeça3.png using Guid(5e0b9d7d4d4654244bc06debd9a269f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44942a277f8634e31d9a49318806989a') in 0.068413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/camisa/camisa1.png
+  artifactKey: Guid(8fec7da8ac72c104aa1e68281a6d5b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/camisa/camisa1.png using Guid(8fec7da8ac72c104aa1e68281a6d5b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcf9d494aa94a3898dcc1ee481549fe') in 0.155023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/calça/calça1.png
+  artifactKey: Guid(a3c9e7a7258667348be300f25c644792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/calça/calça1.png using Guid(a3c9e7a7258667348be300f25c644792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3d9a7323d52ec7a62280674678a734') in 0.118828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Image_Assets/Main_menu/Animation/13.png
+  artifactKey: Guid(c1720e84bdfb2dd439991804145e8102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Main_menu/Animation/13.png using Guid(c1720e84bdfb2dd439991804145e8102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3659c97ff48a260f47a49ffdc5d6aa1e') in 0.096005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Image_Assets/Main_menu/Animation/12.png
+  artifactKey: Guid(a47a8af10fa113443b132b4b173ad266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Main_menu/Animation/12.png using Guid(a47a8af10fa113443b132b4b173ad266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95f6faff7c49fcdcb3f85254c1c460f') in 0.095518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Image_Assets/Main_menu/Animation/1.png
+  artifactKey: Guid(44407355a14616d46b35908a84910a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Main_menu/Animation/1.png using Guid(44407355a14616d46b35908a84910a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3999e78f0b12a170b130e5a35d81ec7') in 0.144270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/calça/calça2.png
+  artifactKey: Guid(3168d5707523cac48ac74a7837c83163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/calça/calça2.png using Guid(3168d5707523cac48ac74a7837c83163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45d32895f996444952e3778b6961659') in 0.054438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor0/camisa1.png
+  artifactKey: Guid(15b5204a27e36704c8ba9b3e1d1d04c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor0/camisa1.png using Guid(15b5204a27e36704c8ba9b3e1d1d04c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b0941bae8978928033a839e5c348c0') in 0.113726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor0/calça0.png
+  artifactKey: Guid(f049a4a6c84d73240bbf7e90cbfb07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor0/calça0.png using Guid(f049a4a6c84d73240bbf7e90cbfb07c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdf91c824972e26bcf0a631057db43d') in 0.117523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor1/calça2.png
+  artifactKey: Guid(613d5529390eeb641bed0aba10d821d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor1/calça2.png using Guid(613d5529390eeb641bed0aba10d821d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f382741e212d6f6082062b443477ee6') in 0.112097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor1/camisa2.png
+  artifactKey: Guid(f311a6c05bf9f694b85996960b8101a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem 1/bonequinho/cor1/camisa2.png using Guid(f311a6c05bf9f694b85996960b8101a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a9dcf85b422a36d88dcbd41a334019') in 0.153268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cabeça/cabeça2.png
+  artifactKey: Guid(b93c1e28bd415924f8731b7134bcd233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/cabeça/cabeça2.png using Guid(b93c1e28bd415924f8731b7134bcd233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41230157ff6cb13922d57934f0601c4') in 0.089730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Image_Assets/Recepçao/atencao.png
+  artifactKey: Guid(4ec4b726e8ca4a347992ef51e44acfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Recepçao/atencao.png using Guid(4ec4b726e8ca4a347992ef51e44acfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c339c8916b39d779aa3cc8f3af3387a5') in 0.372289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/camisa/camisa2.png
+  artifactKey: Guid(05b4c81a3f537a14a86ec314c7f3add2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image_Assets/Character Creator/menu_roupas/criação de personagem/camisa/camisa2.png using Guid(05b4c81a3f537a14a86ec314c7f3add2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58349b337929c72e0b949fba74dbbdf7') in 0.060373 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003542 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.145 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1146ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (942ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (364ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2226 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.7 MB.
-System memory in use after: 100.7 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2672.
-Total: 4.191900 ms (FindLiveObjects: 0.215000 ms CreateObjectMapping: 0.092200 ms MarkObjects: 3.620000 ms  DeleteObjects: 0.263300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 57.582620 seconds.
-  path: Assets/Scenes/Recepcao.unity
-  artifactKey: Guid(154ccbddbd54bd54fb17a217916010cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Recepcao.unity using Guid(154ccbddbd54bd54fb17a217916010cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f0c1100a9c232745ff213faec8f117') in 0.007524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.797878 seconds.
-  path: Assets/Scenes/Refeitorio.unity
-  artifactKey: Guid(7eceaf7f46f5be3468af6f8396a69ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Refeitorio.unity using Guid(7eceaf7f46f5be3468af6f8396a69ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda0d4ba54bc71c39a22bfab7c17f0bd') in 0.006353 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002517 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.810 seconds
-Domain Reload Profiling:
-	ReloadAssembly (811ms)
-		BeginReloadAssembly (94ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (665ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (224ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (235ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (154ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2226 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2220 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 100.8 MB.
-System memory in use after: 100.7 MB.
+System memory in use after: 101.0 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2675.
-Total: 2.811300 ms (FindLiveObjects: 0.165300 ms CreateObjectMapping: 0.070300 ms MarkObjects: 2.473000 ms  DeleteObjects: 0.102100 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2733.
+Total: 3.267700 ms (FindLiveObjects: 0.211800 ms CreateObjectMapping: 0.110200 ms MarkObjects: 2.918100 ms  DeleteObjects: 0.026500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -271,62 +701,50 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 101.933863 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(4b1c67c40b7254f46a81107d6817eecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(4b1c67c40b7254f46a81107d6817eecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6790603c97c9c77432ce7f0750c8e66') in 0.007413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.607169 seconds.
-  path: Assets/Scripts/UI_assistant.cs
-  artifactKey: Guid(e49b4d2b049db024bb3790c009effcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI_assistant.cs using Guid(e49b4d2b049db024bb3790c009effcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf34cd01662a90831bb42521f9fd5b1') in 0.011439 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002260 seconds.
+Registered in 0.003418 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.039 seconds
+- Completed reload, in  0.990 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1040ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (991ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (858ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (812ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (271ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (299ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (308ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (186ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2226 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.9 MB.
-System memory in use after: 100.9 MB.
+Unloading 2220 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.8 MB.
+System memory in use after: 101.0 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2678.
-Total: 3.560300 ms (FindLiveObjects: 0.224800 ms CreateObjectMapping: 0.207100 ms MarkObjects: 3.023000 ms  DeleteObjects: 0.104400 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2736.
+Total: 2.744800 ms (FindLiveObjects: 0.168700 ms CreateObjectMapping: 0.089300 ms MarkObjects: 2.465300 ms  DeleteObjects: 0.020900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -338,57 +756,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 181.750830 seconds.
-  path: Assets/Scripts/UI_assistant.cs
-  artifactKey: Guid(e49b4d2b049db024bb3790c009effcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI_assistant.cs using Guid(e49b4d2b049db024bb3790c009effcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c73fc5aa6974b5d172789282934709') in 0.003918 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002361 seconds.
+Registered in 0.003428 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.819 seconds
+- Completed reload, in  0.998 seconds
 Domain Reload Profiling:
-	ReloadAssembly (820ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (999ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (665ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (827ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (235ms)
+			SetupTypeCache (272ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (242ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (318ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (158ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2226 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.9 MB.
-System memory in use after: 100.9 MB.
+Unloading 2220 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.8 MB.
+System memory in use after: 101.1 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2681.
-Total: 2.617300 ms (FindLiveObjects: 0.157200 ms CreateObjectMapping: 0.060800 ms MarkObjects: 2.302300 ms  DeleteObjects: 0.096600 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2739.
+Total: 2.963000 ms (FindLiveObjects: 0.170300 ms CreateObjectMapping: 0.132400 ms MarkObjects: 2.638400 ms  DeleteObjects: 0.020800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -401,9 +813,227 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 447.392119 seconds.
-  path: Assets/Scenes/Character_Creation.unity
-  artifactKey: Guid(81438bcd695b93a4d86164ad5f8b62cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Character_Creation.unity using Guid(81438bcd695b93a4d86164ad5f8b62cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd292ab1836a52cf469a8e5dbce2d837') in 0.007971 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003499 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.023 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1023ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (843ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2220 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.9 MB.
+System memory in use after: 101.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2742.
+Total: 2.934100 ms (FindLiveObjects: 0.200300 ms CreateObjectMapping: 0.128800 ms MarkObjects: 2.581700 ms  DeleteObjects: 0.022400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003801 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.172 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1173ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (961ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (359ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2220 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.9 MB.
+System memory in use after: 101.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2745.
+Total: 3.043400 ms (FindLiveObjects: 0.186400 ms CreateObjectMapping: 0.109100 ms MarkObjects: 2.724200 ms  DeleteObjects: 0.022600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004126 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.131 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1131ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (943ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (307ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2220 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.0 MB.
+System memory in use after: 101.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2748.
+Total: 3.319100 ms (FindLiveObjects: 0.186000 ms CreateObjectMapping: 0.101100 ms MarkObjects: 3.008900 ms  DeleteObjects: 0.022200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003894 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.984 seconds
+Domain Reload Profiling:
+	ReloadAssembly (985ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (818ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2220 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.0 MB.
+System memory in use after: 101.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2751.
+Total: 2.693100 ms (FindLiveObjects: 0.178800 ms CreateObjectMapping: 0.091100 ms MarkObjects: 2.403200 ms  DeleteObjects: 0.019300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
