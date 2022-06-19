@@ -77,9 +77,19 @@ public class Char_Selection_Manager : MonoBehaviour
                 charGen = "Created";
             }
         }
-        DestroyImmediate(GameObject.Find("Selection(Clone)"));
-        DestroyImmediate(GameObject.Find("Selection 2(Clone)"));
-        DestroyImmediate(GameObject.Find("Selection 3(Clone)"));
+        string nick = GameObject.Find("Nick").GetComponent<Text>().text;
+        PlayerPrefs.SetString("Nickname", nick);
+        if(nick != "")
+        {
+            DestroyImmediate(GameObject.Find("Selection(Clone)"));
+            DestroyImmediate(GameObject.Find("Selection 2(Clone)"));
+            DestroyImmediate(GameObject.Find("Selection 3(Clone)"));
+        }
+        else
+        {
+            GameObject.Find("Nickname").GetComponent<Text>().color = Color.red;
+            GameObject.Find("Nickname").GetComponent<Text>().text = "<<Nickname>>";
+        }
         PlayerPrefs.SetString("charGen", charGen);
         Debug.Log(PlayerPrefs.GetString("charGen"));
     }
