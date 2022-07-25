@@ -57,7 +57,7 @@ public class UI_assistant : MonoBehaviour
                     "Oh oh, infelizmente você não pode adentrar o SENAI Cimatec com as vestimentas escolhidas. Por favor, volte e escolha novamente.",
                     "Parabéns, você escolheu vestimentas adequadas para adentrar o SENAI Cimatec. Sua entrada está liberada !!!!",
                     "Mas atenção, você está recebendo 1.000 sustens para serem utilizadas nas próximas missões. \nPortanto, cuidado com as suas escolhas, pois elas impactam na sua pontuação final!!!!",
-                };
+                    };
                     if (i == 0)
                     {
                         string message = messageArray[i];
@@ -93,28 +93,92 @@ public class UI_assistant : MonoBehaviour
             {
                 textWriterSingle = TextWriter.AddWriter_Static(messageText, "Este é o refeitório, aqui você fará uma refeição. " +
                     "Mas antes de se servir, primeiro lave as suas mãos.", .02f, true, true);
+                transform.Find("DialogueText").GetComponent<Button_UI>().ClickFunc = () =>
+                {
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, " ", .02f, true, true);
+                    transform.Find("DialogueBox").GetComponent<Image>().color = new Color(1f, 1f, 1f, 0f);
+                    /*if (i == 0)
+                    {
+                        textWriterSingle = TextWriter.AddWriter_Static(messageText, "Este é o refeitório, aqui você fará uma refeição. " +
+                        "Mas antes de se servir, primeiro lave as suas mãos.", .02f, true, true);
+                        i = 1;
+                    }
+                    else if (i == 1)
+                    {
+                        textWriterSingle = TextWriter.AddWriter_Static(messageText, " ", .02f, true, true);
+                        transform.Find("DialogueBox").GetComponent<Image>().color = new Color(1f, 1f, 1f, 0f);
+                    }*/
+                };
             }
-            else
+            else if(PlayerPrefs.GetInt("Jogo da Comida") == 0)
             {
                 textWriterSingle = TextWriter.AddWriter_Static(messageText, "Hum… que cheiro bom, está na hora do almoço." +
                     "\nAproveite e monte a sua refeição.", .02f, true, true);
+                transform.Find("DialogueText").GetComponent<Button_UI>().ClickFunc = () =>
+                {
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, " ", .02f, true, true);
+                    transform.Find("DialogueBox").GetComponent<Image>().color = new Color(1f, 1f, 1f, 0f);
+                    /*if (i == 0)
+                    {
+                        textWriterSingle = TextWriter.AddWriter_Static(messageText, "Hum… que cheiro bom, está na hora do almoço." +
+                        "\nAproveite e monte a sua refeição.", .02f, true, true);
+                        i = 1;
+                    }
+                    else if (i == 1)
+                    {
+                        textWriterSingle = TextWriter.AddWriter_Static(messageText, " ", .02f, true, true);
+                        transform.Find("DialogueBox").GetComponent<Image>().color = new Color(1f, 1f, 1f, 0f);
+                    }*/
+                };
             }
-            
+            else if (PlayerPrefs.GetInt("Jogo do Descarte") == 0)
+            {
+                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Agora que você já comeu, descarte corretamente" +
+                    " os resíduos em cada cesto.", .02f, true, true);
+                transform.Find("DialogueText").GetComponent<Button_UI>().ClickFunc = () =>
+                {
+                    if (i == 0)
+                    {
+                        textWriterSingle = TextWriter.AddWriter_Static(messageText, "Lembrando que: Verde (Vidro), Azul (papel), " +
+                            "Vermelho (plástico), Amarelo (Metal), e Marrom(Orgânico).", .02f, true, true);
+                        i = 1;
+                    }
+                    else if (i == 1)
+                    {
+                        textWriterSingle = TextWriter.AddWriter_Static(messageText, " ", .02f, true, true);
+                        transform.Find("DialogueBox").GetComponent<Image>().color = new Color(1f, 1f, 1f, 0f);
+                    }
+                };
+            }
+
         }
         else if (SceneManager.GetActiveScene().buildIndex == 3)
         {
             messageText = transform.Find("DialogueText").GetComponent<Text>();
+
+            textWriterSingle = TextWriter.AddWriter_Static(messageText, "Você precisa lavar suas mãos. " +
+                "Escolha a torneia mais adequada.", .02f, true, true);
+
             GameObject.Find("Btn0").GetComponent<Button_UI>().ClickFunc = () =>
             {
                 if (textWriterSingle != null && textWriterSingle.isactive())
                 {
                     textWriterSingle.WriteAllandDestroy();
                 }
-                else
+                else if (i == 0)
                 {
                     textWriterSingle = TextWriter.AddWriter_Static(messageText, "Parabéns, você escolheu a pia mais adequada. " +
                         "Agora que já lavou as mãos, seque-as da melhor forma para o meio ambiente", .02f, true, true);
+                    i = 1;
                 }
+                else if (i == 1)
+                {
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Algumas vezes as escolhas tradicionais são melhores. " +
+                        "O secador mais adequado é o papel toalha, além de diminuir a proliferação de bactérias em até 24%, ele não emite" +
+                        " carbono.\nAgora que já secou as mãos, volte ao refeitório e faça sua refeição", .02f, true, true);
+                    i = 2;
+                }
+
             };
 
             GameObject.Find("Btn1").GetComponent<Button_UI>().ClickFunc = () =>
@@ -123,10 +187,18 @@ public class UI_assistant : MonoBehaviour
                 {
                     textWriterSingle.WriteAllandDestroy();
                 }
-                else
+                else if (i == 0)
                 {
-                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Infelizmente essa não é a pia correta. " +
-                        "Agora que já lavou as mãos, seque-as da melhor forma para o meio ambiente", .02f, true, true);
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "A torneira mais adequada é a com sensor, ela gera uma economia" +
+                        " de até 70% no uso de água.\n Agora que já lavou as mãos, seque-as da melhor forma para o meio ambiente", .02f, true, true);
+                    i = 1;
+                }
+                else if (i == 1)
+                {
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Algumas vezes as escolhas tradicionais são melhores. " +
+                        "O secador mais adequado é o papel toalha, além de diminuir a proliferação de bactérias em até 24%, ele não emite" +
+                        " carbono. Agora que já secou as mãos, volte ao refeitório e faça sua refeição", .02f, true, true);
+                    i = 2;
                 }
             };
 
@@ -136,10 +208,25 @@ public class UI_assistant : MonoBehaviour
                 {
                     textWriterSingle.WriteAllandDestroy();
                 }
-                else
+                else if (i == 0)
                 {
-                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Infelizmente essa não é a pia correta. " +
-                        "Agora que já lavou as mãos, seque-as da melhor forma para o meio ambiente", .02f, true, true);
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "A torneira mais adequada é a com sensor, ela gera uma economia" +
+                        " de até 70% no uso de água. Agora que já lavou as mãos, seque-as da melhor forma para o meio ambiente", .02f, true, true);
+                    i = 1;
+                }
+                else if (i == 1)
+                {
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Parabéns, você escolheu o secador mais adequado. " +
+                        "Agora que já secou as mãos, volte ao refeitório e faça sua refeição", .02f, true, true);
+                    i = 2;
+                }
+            };
+
+            GameObject.Find("DialogueText").GetComponent<Button_UI>().ClickFunc = () =>
+            {
+                if (i == 2)
+                {
+                    SceneManager.LoadScene("Refeitorio");
                 }
             };
         }
