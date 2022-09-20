@@ -55,7 +55,7 @@ public class UI_assistant : MonoBehaviour
                     string[] messageArray = new string[]{
                     "Clique no computador para realizar o seu cadastro!",
                     "Oh oh, infelizmente você não pode adentrar o SENAI Cimatec com as vestimentas escolhidas. Por favor, volte e escolha novamente.",
-                    "Parabéns, você escolheu vestimentas adequadas para adentrar o SENAI Cimatec. Sua entrada está liberada !!!!",
+					"“Maravilhaaa! Você cumpriu com o desafio  por isso tem acesso liberado! Todos que passam por aqui recebem esta garrafa, guarde com cuidado, você vai precisar dela. Tenha uma ótima visita!”!",
                     "Mas atenção, você está recebendo 1.000 sustens para serem utilizadas nas próximas missões. \nPortanto, cuidado com as suas escolhas, pois elas impactam na sua pontuação final!!!!",
                 };
                     if (i == 0)
@@ -97,7 +97,7 @@ public class UI_assistant : MonoBehaviour
             else
             {
                 textWriterSingle = TextWriter.AddWriter_Static(messageText, "Hum… que cheiro bom, está na hora do almoço." +
-                    "\nAproveite e monte a sua refeição.", .02f, true, true);
+                    "\nAproveite e monte a sua refeição. mas não esqueça de higienizar as mãos antes!", .02f, true, true);
             }
             
         }
@@ -113,7 +113,7 @@ public class UI_assistant : MonoBehaviour
                 else
                 {
                     textWriterSingle = TextWriter.AddWriter_Static(messageText, "Parabéns, você escolheu a pia mais adequada. " +
-                        "Agora que já lavou as mãos, seque-as da melhor forma para o meio ambiente", .02f, true, true);
+						" Muito bem! É importante lavar as mãos controlando a quantidade de água gasta, a sua escolha economiza até 70% mais água", .02f, true, true);
                 }
             };
 
@@ -165,7 +165,8 @@ public class UI_assistant : MonoBehaviour
             else
             {
                 textWriterSingle = TextWriter.AddWriter_Static(messageText, "Olá, seja bem-vindo ao SENAI CIMATEC! Para iniciarmos a " +
-                "sua aventura aqui, primeiro é necessario que se cadastre no sistema para ter seu acesso liberado.", .02f, true, true);
+				"visita! é indispensável o uso correto das roupas aqui na nossa instituição." +
+                " Por isso o seu objetivo é escolher a roupa adequada para ter acesso livre!!!\n", .02f, true, true);
             }
         }
         if (SceneManager.GetActiveScene().buildIndex == 3)
@@ -176,7 +177,7 @@ public class UI_assistant : MonoBehaviour
             }
             else
             {
-                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Escolha a pia mais ecologicamente adequada!", .02f, true, true);
+                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Escolha a torneira mais ecologica para lavar as suas mãos!", .02f, true, true);
             }
         }
 
