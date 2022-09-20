@@ -48,7 +48,7 @@ public class Jogo_da_Pia : MonoBehaviour
         else
         {
             PlayerPrefs.SetInt("Dryer", button);
-            if (button == 1)
+            if (button == 2)
             {
                 PlayerPrefs.SetInt("Secador Certo", 1);
             }
@@ -56,7 +56,7 @@ public class Jogo_da_Pia : MonoBehaviour
             {
                 sustem -= 250;
             }
-            SceneManager.LoadScene("Refeitorio");
+            //SceneManager.LoadScene("Refeitorio");
         }
         PlayerPrefs.SetInt("Sustem", sustem);
     }

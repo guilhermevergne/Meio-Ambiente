@@ -8,23 +8,39 @@ public class Move_Character : MonoBehaviour
     public float speedY = 5;
     public int type;
     Rigidbody2D rig;
+    Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
 
     private void FixedUpdate()
     {
-        if(type == 0)
+        float hor = Input.GetAxisRaw("Horizontal");
+        if (type == 0)
         {
-            rig.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * speedX, Input.GetAxisRaw("Vertical") * speedY);
+            rig.velocity = new Vector2(hor * speedX, Input.GetAxisRaw("Vertical") * speedY);
+            if (hor != 0)
+            {
+                transform.localScale = new Vector3(-0.3f*hor, transform.localScale.y, transform.localScale.z);
+            }
+
         }
         else if(type == 1)
         {
             transform.localPosition = new Vector3(0, 0, 0);
+            if (hor != 0)
+            {
+                animator.SetBool("walking", true);
+            }
+            else
+            {
+                animator.SetBool("walking", false);
+            }
         }
     }
 
