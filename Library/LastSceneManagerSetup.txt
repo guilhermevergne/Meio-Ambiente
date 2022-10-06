@@ -1,5 +1,5 @@
 sceneSetups:
-- path: "Assets/Scenes/Refeit\xF3rio/Jogo da Pia.unity"
+- path: "Assets/Scenes/2fase/Laborat\xF3rio.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0

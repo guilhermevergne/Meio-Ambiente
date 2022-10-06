@@ -54,9 +54,9 @@ public class UI_assistant : MonoBehaviour
                 {
                     string[] messageArray = new string[]{
                     "Clique no computador para realizar o seu cadastro!",
-                    "Oh oh, infelizmente voc� n�o pode adentrar o SENAI Cimatec com as vestimentas escolhidas. Por favor, volte e escolha novamente.",
-					"�Maravilhaaa! Voc� cumpriu com o desafio  por isso tem acesso liberado! Todos que passam por aqui recebem esta garrafa, guarde com cuidado, voc� vai precisar dela. Tenha uma �tima visita!�!",
-                    "Mas aten��o, voc� est� recebendo 1.000 sustens para serem utilizadas nas pr�ximas miss�es. \nPortanto, cuidado com as suas escolhas, pois elas impactam na sua pontua��o final!!!!",
+                    "Oh oh, infelizmente você não pode adentrar o SENAI Cimatec com as vestimentas escolhidas. Por favor, volte e escolha novamente.",
+					"�Maravilhaaa! Você cumpriu com o desafio  por isso tem acesso liberado! Todos que passam por aqui recebem esta garrafa, guarde com cuidado, você vai precisar dela. Tenha uma ótima visita!!!",
+                    "Mas atenção, você está recebendo 1.000 sustens para serem utilizadas nas próximas missões. \nPortanto, cuidado com as suas escolhas, pois elas impactam na sua pontuação final!!!!",
                     };
                     if (i == 0)
                     {
@@ -91,16 +91,16 @@ public class UI_assistant : MonoBehaviour
             messageText = transform.Find("DialogueText").GetComponent<Text>();
             if (PlayerPrefs.GetInt("Jogo da Pia") == 0)
             {
-                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Este � o refeit�rio, aqui voc� far� uma refei��o. " +
-                    "Mas antes de se servir, primeiro lave as suas m�os.", .02f, true, true);
+                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Este é o refeitório, aqui você fará uma refeição. " +
+                    "Mas antes de se servir, primeiro lave as suas mãos.", .02f, true, true);
                 transform.Find("DialogueText").GetComponent<Button_UI>().ClickFunc = () =>
                 {
                     textWriterSingle = TextWriter.AddWriter_Static(messageText, " ", .02f, true, true);
                     transform.Find("DialogueBox").GetComponent<Image>().color = new Color(1f, 1f, 1f, 0f);
                     /*if (i == 0)
                     {
-                        textWriterSingle = TextWriter.AddWriter_Static(messageText, "Este � o refeit�rio, aqui voc� far� uma refei��o. " +
-                        "Mas antes de se servir, primeiro lave as suas m�os.", .02f, true, true);
+                        textWriterSingle = TextWriter.AddWriter_Static(messageText, "Este é o refeitório, aqui você fará uma refeição. " +
+                        "Mas antes de se servir, primeiro lave as suas mãos.", .02f, true, true);
                         i = 1;
                     }
                     else if (i == 1)
@@ -112,19 +112,19 @@ public class UI_assistant : MonoBehaviour
             }
             else if(PlayerPrefs.GetInt("Jogo da Comida") == 0)
             {
-                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Hum� que cheiro bom, está na hora do almo�o." +
-                    "\nAproveite e monte a sua refei��o. mas n�o esque�a de higienizar as m�os antes!", .02f, true, true);
+                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Hum� que cheiro bom, está na hora do almoço." +
+                    "\nAproveite e monte a sua refeição. mas não esqueça de higienizar as mãos antes!", .02f, true, true);
             }
             else if (PlayerPrefs.GetInt("Jogo do Descarte") == 0)
             {
-                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Agora que voc� j� comeu, descarte corretamente" +
-                    " os res�duos em cada cesto.", .02f, true, true);
+                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Agora que você já comeu, descarte corretamente" +
+                    " os resíduos em cada cesto.", .02f, true, true);
                 transform.Find("DialogueText").GetComponent<Button_UI>().ClickFunc = () =>
                 {
                     if (i == 0)
                     {
                         textWriterSingle = TextWriter.AddWriter_Static(messageText, "Lembrando que: Verde (Vidro), Azul (papel), " +
-                            "Vermelho (pl�stico), Amarelo (Metal), e Marrom(Org�nico).", .02f, true, true);
+                            "Vermelho (plástico), Amarelo (Metal), e Marrom(Orgânico).", .02f, true, true);
                         i = 1;
                     }
                     else if (i == 1)
@@ -140,7 +140,7 @@ public class UI_assistant : MonoBehaviour
         {
             messageText = transform.Find("DialogueText").GetComponent<Text>();
 
-            textWriterSingle = TextWriter.AddWriter_Static(messageText, "Voc� precisa lavar suas m�os. " +
+            textWriterSingle = TextWriter.AddWriter_Static(messageText, "Você precisa lavar suas mãos. " +
                 "Escolha a torneia mais adequada.", .02f, true, true);
 
             GameObject.Find("Btn0").GetComponent<Button_UI>().ClickFunc = () =>
@@ -151,14 +151,14 @@ public class UI_assistant : MonoBehaviour
                 }
                 else if (i == 0)
                 {
-                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Parab�ns, voc� escolheu a pia mais adequada. " +
-						" Muito bem! � importante lavar as m�os controlando a quantidade de �gua gasta, a sua escolha economiza at� 70% mais �gua", .02f, true, true);
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Parabéns, você escolheu a pia mais adequada. " +
+						" Muito bem! É importante lavar as mãos controlando a quantidade de água gasta, a sua escolha economiza até 70% mais água", .02f, true, true);
                 }
                 else if (i == 1)
                 {
-                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Algumas vezes as escolhas tradicionais s�o melhores. " +
-                        "O secador mais adequado � o papel toalha, al�m de diminuir a prolifera��o de bactérias em até 24%, ele n�o emite" +
-                        " carbono.\nAgora que j� secou as m�os, volte ao refeitério e fa�a sua refei��o", .02f, true, true);
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Algumas vezes as escolhas tradicionais são melhores. " +
+                        "O secador mais adequado é o papel toalha, além de diminuir a proliferação de bactérias em até 24%, ele não emite" +
+                        " carbono.\nAgora que já secou as mãos, volte ao refeitério e faça sua refeição", .02f, true, true);
                     i = 2;
                 }
 
@@ -173,13 +173,13 @@ public class UI_assistant : MonoBehaviour
                 else if (i == 0)
                 {
                     textWriterSingle = TextWriter.AddWriter_Static(messageText, "A torneira mais adequada é a com sensor, ela gera uma economia" +
-                        " de até 70% no uso de água.\n Agora que j� lavou as mãos, seque-as da melhor forma para o meio ambiente", .02f, true, true);
+                        " de até 70% no uso de água.\n Agora que já lavou as mãos, seque-as da melhor forma para o meio ambiente", .02f, true, true);
                     i = 1;
                 }
                 else if (i == 1)
                 {
-                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Algumas vezes as escolhas tradicionais s�o melhores. " +
-                        "O secador mais adequado é o papel toalha, al�m de diminuir a proliferação de bactérias em até 24%, ele não emite" +
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Algumas vezes as escolhas tradicionais são melhores. " +
+                        "O secador mais adequado é o papel toalha, além de diminuir a proliferação de bactérias em até 24%, ele não emite" +
                         " carbono. Agora que já secou as mãos, volte ao refeitório e faça sua refeição", .02f, true, true);
                     i = 2;
                 }
@@ -193,14 +193,14 @@ public class UI_assistant : MonoBehaviour
                 }
                 else if (i == 0)
                 {
-                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "A torneira mais adequada � a com sensor, ela gera uma economia" +
-                        " de at� 70% no uso de �gua. Agora que j� lavou as m�os, seque-as da melhor forma para o meio ambiente", .02f, true, true);
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "A torneira mais adequada é a com sensor, ela gera uma economia" +
+                        " de até 70% no uso de água. Agora que já lavou as mãos, seque-as da melhor forma para o meio ambiente", .02f, true, true);
                     i = 1;
                 }
                 else if (i == 1)
                 {
-                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Parab�ns, voc� escolheu o secador mais adequado. " +
-                        "Agora que j� secou as m�os, volte ao refeit�rio e fa�a sua refei��o", .02f, true, true);
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Parabéns, você escolheu o secador mais adequado. " +
+                        "Agora que já secou as mãos, volte ao refeitório e faça sua refeição", .02f, true, true);
                     i = 2;
                 }
             };
@@ -221,8 +221,8 @@ public class UI_assistant : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex == 0)
         {
-            textWriterSingle = TextWriter.AddWriter_Static(messageText, "Ao visitar o Senai CIMATEC, voc� ter� como objetivo resolver os desafios " +
-            "de produ��o mais limpa (P + L) que ocorrer�o durante o percurso. Portanto, fique atento �s dicas e aos avisos para " +
+            textWriterSingle = TextWriter.AddWriter_Static(messageText, "Ao visitar o Senai CIMATEC, você terá como objetivo resolver os desafios " +
+            "de produção mais limpa (P + L) que ocorrerão durante o percurso. Portanto, fique atento às dicas e aos avisos para " +
             "conseguir a maior recompensa de todas, receber a coroa da sustentabilidade!", .02f, true, true);
 
         }
@@ -230,13 +230,13 @@ public class UI_assistant : MonoBehaviour
         {
             if (charcreate)
             {
-                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Para prosseguir, entre no elevador e se dirija ao refeit�rio. Boa sorte!", .05f, true, true);
+                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Para prosseguir, entre no elevador e se dirija ao refeitório. Boa sorte!", .05f, true, true);
             }
             else
             {
-                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Ol�, seja bem-vindo ao SENAI CIMATEC! Para iniciarmos a " +
-				"visita! � indispens�vel o uso correto das roupas aqui na nossa institui��o." +
-                " Por isso o seu objetivo � escolher a roupa adequada para ter acesso livre!!!\n", .02f, true, true);
+                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Olá, seja bem-vindo ao SENAI CIMATEC! Para iniciarmos a " +
+				"visita! É indispensável o uso correto das roupas aqui na nossa instituição." +
+                " Por isso o seu objetivo é escolher a roupa adequada para ter acesso livre!!!\n", .02f, true, true);
             }
         }
         if (SceneManager.GetActiveScene().buildIndex == 3)
@@ -247,7 +247,7 @@ public class UI_assistant : MonoBehaviour
             }
             else
             {
-                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Escolha a torneira mais ecologica para lavar as suas m�os!", .02f, true, true);
+                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Escolha a torneira mais ecologica para lavar as suas mãos!", .02f, true, true);
             }
         }
 
