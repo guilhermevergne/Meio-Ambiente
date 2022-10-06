@@ -112,7 +112,7 @@ public class UI_assistant : MonoBehaviour
             }
             else if(PlayerPrefs.GetInt("Jogo da Comida") == 0)
             {
-                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Hum� que cheiro bom, est� na hora do almo�o." +
+                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Hum� que cheiro bom, está na hora do almo�o." +
                     "\nAproveite e monte a sua refei��o. mas n�o esque�a de higienizar as m�os antes!", .02f, true, true);
             }
             else if (PlayerPrefs.GetInt("Jogo do Descarte") == 0)
@@ -157,8 +157,8 @@ public class UI_assistant : MonoBehaviour
                 else if (i == 1)
                 {
                     textWriterSingle = TextWriter.AddWriter_Static(messageText, "Algumas vezes as escolhas tradicionais s�o melhores. " +
-                        "O secador mais adequado � o papel toalha, al�m de diminuir a prolifera��o de bact�rias em at� 24%, ele n�o emite" +
-                        " carbono.\nAgora que j� secou as m�os, volte ao refeit�rio e fa�a sua refei��o", .02f, true, true);
+                        "O secador mais adequado � o papel toalha, al�m de diminuir a prolifera��o de bactérias em até 24%, ele n�o emite" +
+                        " carbono.\nAgora que j� secou as m�os, volte ao refeitério e fa�a sua refei��o", .02f, true, true);
                     i = 2;
                 }
 
@@ -172,15 +172,15 @@ public class UI_assistant : MonoBehaviour
                 }
                 else if (i == 0)
                 {
-                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "A torneira mais adequada � a com sensor, ela gera uma economia" +
-                        " de at� 70% no uso de �gua.\n Agora que j� lavou as m�os, seque-as da melhor forma para o meio ambiente", .02f, true, true);
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "A torneira mais adequada é a com sensor, ela gera uma economia" +
+                        " de até 70% no uso de água.\n Agora que j� lavou as mãos, seque-as da melhor forma para o meio ambiente", .02f, true, true);
                     i = 1;
                 }
                 else if (i == 1)
                 {
                     textWriterSingle = TextWriter.AddWriter_Static(messageText, "Algumas vezes as escolhas tradicionais s�o melhores. " +
-                        "O secador mais adequado � o papel toalha, al�m de diminuir a prolifera��o de bact�rias em at� 24%, ele n�o emite" +
-                        " carbono. Agora que j� secou as m�os, volte ao refeit�rio e fa�a sua refei��o", .02f, true, true);
+                        "O secador mais adequado é o papel toalha, al�m de diminuir a proliferação de bactérias em até 24%, ele não emite" +
+                        " carbono. Agora que já secou as mãos, volte ao refeitório e faça sua refeição", .02f, true, true);
                     i = 2;
                 }
             };
