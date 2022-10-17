@@ -1506,6 +1506,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 7513924020215424069}
+  limiteEsq: -37.8
+  limiteDir: 37.8
 --- !u!1001 &1850617393
 PrefabInstance:
   m_ObjectHideFlags: 0
