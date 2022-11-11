@@ -375,9 +375,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec46fc05f2fc4e4298060a247fa8d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  header: 'Torneira tradicional '
-  content: "\xD3tima funcionalidade, te permite manter o controle sobre a quantidade
-    de \xE1gua utilizada.  "
+  header: "Luva Descart\xE1vel"
+  content: "N\xE3o pode ser reutilizada"
 --- !u!114 &334733204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -493,82 +492,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 334733201}
   m_CullTransparentMesh: 1
---- !u!1 &367225961
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 367225962}
-  - component: {fileID: 367225964}
-  - component: {fileID: 367225963}
-  m_Layer: 5
-  m_Name: DialogueBox
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &367225962
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 367225961}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1770173120}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.7458, y: -243.4825}
-  m_SizeDelta: {x: 1152.2191, y: 147.6225}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &367225963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 367225961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 58bca8bdf4835b1499ce23cbcef6f915, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &367225964
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 367225961}
-  m_CullTransparentMesh: 1
---- !u!1001 &697920781
+--- !u!1001 &580039157
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -585,7 +509,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7140222941894858549, guid: a06b81f0a46ba7c4a9cb23a7358a3e52, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7140222941894858549, guid: a06b81f0a46ba7c4a9cb23a7358a3e52, type: 3}
       propertyPath: m_AnchorMax.x
@@ -605,11 +529,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7140222941894858549, guid: a06b81f0a46ba7c4a9cb23a7358a3e52, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 36.8934
+      value: 171.3076
       objectReference: {fileID: 0}
     - target: {fileID: 7140222941894858549, guid: a06b81f0a46ba7c4a9cb23a7358a3e52, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 33.4726
+      value: 98.8005
       objectReference: {fileID: 0}
     - target: {fileID: 7140222941894858549, guid: a06b81f0a46ba7c4a9cb23a7358a3e52, type: 3}
       propertyPath: m_LocalScale.x
@@ -649,11 +573,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7140222941894858549, guid: a06b81f0a46ba7c4a9cb23a7358a3e52, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 415
+      value: 374
       objectReference: {fileID: 0}
     - target: {fileID: 7140222941894858549, guid: a06b81f0a46ba7c4a9cb23a7358a3e52, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 300
+      value: 262
       objectReference: {fileID: 0}
     - target: {fileID: 7140222941894858549, guid: a06b81f0a46ba7c4a9cb23a7358a3e52, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -673,10 +597,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a06b81f0a46ba7c4a9cb23a7358a3e52, type: 3}
---- !u!224 &697920782 stripped
+--- !u!224 &580039158 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7140222941894858549, guid: a06b81f0a46ba7c4a9cb23a7358a3e52, type: 3}
-  m_PrefabInstance: {fileID: 697920781}
+  m_PrefabInstance: {fileID: 580039157}
   m_PrefabAsset: {fileID: 0}
 --- !u!222 &738423852
 CanvasRenderer:
@@ -799,7 +723,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7158721730912409353}
-  - {fileID: 1770173120}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -933,107 +856,6 @@ MonoBehaviour:
   hoverBehaviour_Move: 0
   hoverBehaviour_Move_Amount: {x: 0, y: 0}
   triggerMouseOutFuncOnClick: 0
---- !u!1 &1592865598
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1592865599}
-  - component: {fileID: 1592865602}
-  - component: {fileID: 1592865601}
-  - component: {fileID: 1592865600}
-  m_Layer: 5
-  m_Name: DialogueText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1592865599
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1592865598}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1770173120}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -21.2422, y: -243.48523}
-  m_SizeDelta: {x: 894.1245, y: 92.1835}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1592865600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1592865598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602f74cbbbd80034b96f88091a8e7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverBehaviourType: 0
-  hoverBehaviour_Color_Enter: {r: 0, g: 0, b: 0, a: 0}
-  hoverBehaviour_Color_Exit: {r: 0, g: 0, b: 0, a: 0}
-  hoverBehaviour_Image: {fileID: 0}
-  hoverBehaviour_Sprite_Exit: {fileID: 0}
-  hoverBehaviour_Sprite_Enter: {fileID: 0}
-  hoverBehaviour_Move: 0
-  hoverBehaviour_Move_Amount: {x: 0, y: 0}
-  triggerMouseOutFuncOnClick: 0
---- !u!114 &1592865601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1592865598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 25
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &1592865602
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1592865598}
-  m_CullTransparentMesh: 1
 --- !u!1 &1706106619
 GameObject:
   m_ObjectHideFlags: 0
@@ -1189,57 +1011,6 @@ MonoBehaviour:
   hoverBehaviour_Move: 0
   hoverBehaviour_Move_Amount: {x: 0, y: 0}
   triggerMouseOutFuncOnClick: 0
---- !u!1 &1770173119
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1770173120}
-  - component: {fileID: 1770173121}
-  m_Layer: 5
-  m_Name: Ui_Assistant
-  m_TagString: TextDisplay
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1770173120
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1770173119}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 100}
-  m_Children:
-  - {fileID: 367225962}
-  - {fileID: 1592865599}
-  m_Father: {fileID: 946949723}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1770173121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1770173119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e49b4d2b049db024bb3790c009effcba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  display: {fileID: 946949719}
 --- !u!1 &1842716045
 GameObject:
   m_ObjectHideFlags: 0
@@ -1606,9 +1377,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec46fc05f2fc4e4298060a247fa8d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  header: 'Torneira tradicional '
-  content: "\xD3tima funcionalidade, te permite manter o controle sobre a quantidade
-    de \xE1gua utilizada.  "
+  header: "\xD3culos"
+  content: 
 --- !u!114 &2083899618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1785,9 +1555,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec46fc05f2fc4e4298060a247fa8d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  header: 'Torneira tradicional '
-  content: "\xD3tima funcionalidade, te permite manter o controle sobre a quantidade
-    de \xE1gua utilizada.  "
+  header: Luvas Grossas
+  content: Pode ser reutilizada!
 --- !u!114 &1273196234697232974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1877,9 +1646,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec46fc05f2fc4e4298060a247fa8d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  header: "Torneira autom\xE1tica com press\xE3o "
-  content: "Possui fechamento autom\xE1tico com temporizador, indica  o tempo m\xEDnimo
-    do uso da \xE1gua "
+  header: "Jaleco Descart\xE1vel"
+  content: "Uso \xFAnico!"
 --- !u!222 &2042443002816686709
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1951,9 +1719,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec46fc05f2fc4e4298060a247fa8d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  header: "Torneira Autom\xE1tica com Sensor"
-  content: "al\xE9m de possuir um \xF3timo funcionamento e minimalismo, possui como
-    principal fun\xE7\xE3o diminuir o desperd\xEDcio de \xE1gua"
+  header: "Jaleco de Algod\xE3o"
+  content: Pode ser reutilizado!
 --- !u!224 &2897100900992786646
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2125,7 +1892,7 @@ RectTransform:
   m_LocalScale: {x: 111.9635, y: 97.831345, z: 1}
   m_Children:
   - {fileID: 5199707719998300239}
-  - {fileID: 697920782}
+  - {fileID: 580039158}
   m_Father: {fileID: 946949723}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
