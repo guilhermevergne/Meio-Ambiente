@@ -113,7 +113,12 @@ public class UI_assistant : MonoBehaviour
             else if(PlayerPrefs.GetInt("Jogo da Comida") == 0)
             {
                 textWriterSingle = TextWriter.AddWriter_Static(messageText, "Hummm! Que cheiro bom, está na hora do almoço." +
-                    "\nAproveite e monte a sua refeição. mas não esqueça de higienizar as mãos antes!", .02f, true, true);
+                    "\nAgora que já lavou as mãos, aproveite e monte a sua refeição!", .02f, true, true);
+                transform.Find("DialogueText").GetComponent<Button_UI>().ClickFunc = () =>
+                {
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, " ", .02f, true, true);
+                    transform.Find("DialogueBox").GetComponent<Image>().color = new Color(1f, 1f, 1f, 0f);
+                };
             }
             else if (PlayerPrefs.GetInt("Jogo do Descarte") == 0)
             {
