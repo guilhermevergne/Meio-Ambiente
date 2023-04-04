@@ -26,4 +26,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2fase/Corredor.unity
     guid: d50e7c52914789d43965b96462dee098
+  - enabled: 1
+    path: "Assets/Scenes/2fase/Vesti\xE1rio.unity"
+    guid: d1c2f229a498ec14894120c12be5c796
+  - enabled: 1
+    path: "Assets/Scenes/2fase/Laborat\xF3rio.unity"
+    guid: 28617d058a12f644a83b2b0321757cda
+  - enabled: 1
+    path: Assets/Scenes/Vitoria.unity
+    guid: 373775bc3821ea9419dfaa0887f34ace
+  - enabled: 1
+    path: Assets/Scenes/Game Over.unity
+    guid: 5c4a8c387dd5fe6488e592195d623f9f
   m_configObjects: {}

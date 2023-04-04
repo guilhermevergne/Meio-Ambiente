@@ -55,7 +55,7 @@ public class UI_assistant : MonoBehaviour
                     string[] messageArray = new string[]{
                     "Clique no computador para realizar o seu cadastro!",
                     "Oh oh, infelizmente você não pode adentrar o SENAI Cimatec com as vestimentas escolhidas. Por favor, volte e escolha novamente.",
-					"�Maravilhaaa! Você cumpriu com o desafio  por isso tem acesso liberado! Todos que passam por aqui recebem esta garrafa, guarde com cuidado, você vai precisar dela. Tenha uma ótima visita!!!",
+					"Maravilhaaa! Você cumpriu com o desafio  por isso tem acesso liberado! Todos que passam por aqui recebem esta garrafa, guarde com cuidado, você vai precisar dela. Tenha uma ótima visita!!!",
                     "Mas atenção, você está recebendo 1.000 sustens para serem utilizadas nas próximas missões. \nPortanto, cuidado com as suas escolhas, pois elas impactam na sua pontuação final!!!!",
                     };
                     if (i == 0)
@@ -112,8 +112,13 @@ public class UI_assistant : MonoBehaviour
             }
             else if(PlayerPrefs.GetInt("Jogo da Comida") == 0)
             {
-                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Hum� que cheiro bom, está na hora do almoço." +
-                    "\nAproveite e monte a sua refeição. mas não esqueça de higienizar as mãos antes!", .02f, true, true);
+                textWriterSingle = TextWriter.AddWriter_Static(messageText, "Hummm! Que cheiro bom, está na hora do almoço." +
+                    "\nAgora que já lavou as mãos, aproveite e monte a sua refeição!", .02f, true, true);
+                transform.Find("DialogueText").GetComponent<Button_UI>().ClickFunc = () =>
+                {
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, " ", .02f, true, true);
+                    transform.Find("DialogueBox").GetComponent<Image>().color = new Color(1f, 1f, 1f, 0f);
+                };
             }
             else if (PlayerPrefs.GetInt("Jogo do Descarte") == 0)
             {

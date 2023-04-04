@@ -49,11 +49,12 @@ MonoBehaviour:
   charColor0:
   - {fileID: 299198991670600303, guid: 00406e39c7ad309418edcfb14cea28eb, type: 3}
   - {fileID: 8943842607934961389, guid: ea0cc3cc27f57aa409a07b84ea07da01, type: 3}
-  - {fileID: 4771445394207718230, guid: 1802bd36f7832984bba39cd764d6ff00, type: 3}
+  - {fileID: 8943842607934961389, guid: 5883d2d9434302d44ae1e48cfcf8ba7b, type: 3}
   charColor1:
   - {fileID: 6642158244303269868, guid: ef7af17635b4c1048b5829502dc7265c, type: 3}
   - {fileID: 3797783385008204435, guid: fd81a2326b05ec148a2456eeeba5cc7e, type: 3}
-  - {fileID: 7514505589105844355, guid: 35ad79d110a249c468ae374815d5b054, type: 3}
+  - {fileID: 8943842607934961389, guid: 1b05a6353622f284d9bb11b0fcbec509, type: 3}
+  player: {fileID: 0}
 --- !u!50 &1446397029661277865
 Rigidbody2D:
   serializedVersion: 4
