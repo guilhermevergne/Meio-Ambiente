@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8943842607934961391}
   - component: {fileID: 8943842607934961388}
   - component: {fileID: 8943842607934961376}
-  - component: {fileID: 1991104578651749129}
+  - component: {fileID: -4986366916114243339}
   m_Layer: 0
   m_Name: Cabelo Grande 2
   m_TagString: Untagged
@@ -148,7 +148,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5, y: 2}
   m_EdgeRadius: 0
---- !u!95 &1991104578651749129
+--- !u!95 &-4986366916114243339
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -158,7 +158,7 @@ Animator:
   m_GameObject: {fileID: 8943842607934961389}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 000ce319be7747a4b969e89823131729, type: 2}
+  m_Controller: {fileID: 9100000, guid: a5aabb0f30f473049b20708d622f078a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

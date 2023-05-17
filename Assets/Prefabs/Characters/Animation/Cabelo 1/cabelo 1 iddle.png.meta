@@ -118,9 +118,9 @@ TextureImporter:
       name: cabelo 1 iddle_0
       rect:
         serializedVersion: 2
-        x: 44
-        y: 30
-        width: 661
+        x: 41
+        y: 22
+        width: 660
         height: 2023
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -139,9 +139,9 @@ TextureImporter:
       name: cabelo 1 iddle_1
       rect:
         serializedVersion: 2
-        x: 761
-        y: 73
-        width: 659
+        x: 850
+        y: 22
+        width: 661
         height: 2023
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -160,9 +160,9 @@ TextureImporter:
       name: cabelo 1 iddle_2
       rect:
         serializedVersion: 2
-        x: 1577
-        y: 30
-        width: 592
+        x: 1670
+        y: 22
+        width: 659
         height: 2023
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: cabelo 1 iddle_3
       rect:
         serializedVersion: 2
-        x: 2319
-        y: 55
-        width: 592
-        height: 2024
+        x: 2380
+        y: 22
+        width: 660
+        height: 2023
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -21,9 +21,10 @@ public class Move_Character : MonoBehaviour
     private void FixedUpdate()
     {
         float hor = Input.GetAxisRaw("Horizontal");
+        float ver = Input.GetAxisRaw("Vertical");
         if (type == 0)
         {
-            rig.velocity = new Vector2(hor * speedX, Input.GetAxisRaw("Vertical") * speedY);
+            rig.velocity = new Vector2(hor * speedX, ver * speedY);
             if (hor != 0)
             {
                 transform.localScale = new Vector3(-0.3f*hor, transform.localScale.y, transform.localScale.z);
@@ -33,7 +34,7 @@ public class Move_Character : MonoBehaviour
         else if(type == 1)
         {
             transform.localPosition = new Vector3(0, 0, 0);
-            if (hor != 0)
+            if (hor != 0 || ver != 0)
             {
                 animator.SetBool("walking", true);
             }
