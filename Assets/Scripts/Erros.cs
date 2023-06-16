@@ -42,7 +42,8 @@ public class Erros : MonoBehaviour
         {
             posX += hor * speedX;
         }
-        transform.localPosition = new Vector3(posX, posY, 0);
+        //transform.localPosition = new Vector3(posX, posY, 0);
+        transform.position = new Vector3(posX,posY,0);
         WinCheck();
     }
 }
