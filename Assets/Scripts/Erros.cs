@@ -37,13 +37,13 @@ public class Erros : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float hor = Input.GetAxisRaw("Horizontal");
+        /*float hor = Input.GetAxisRaw("Horizontal");
         if (player.transform.localPosition.x > -25 && player.transform.localPosition.x < 25)
         {
             posX += hor * speedX;
         }
         //transform.localPosition = new Vector3(posX, posY, 0);
-        transform.position = new Vector3(posX,posY,0);
+        transform.position = new Vector3(posX,posY,0);*/
         WinCheck();
     }
 }

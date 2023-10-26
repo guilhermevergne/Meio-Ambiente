@@ -55,7 +55,7 @@ public class UI_assistant : MonoBehaviour
                     string[] messageArray = new string[]{
                     "Clique no computador para realizar o seu cadastro!",
                     "Oh oh, infelizmente você não pode adentrar o SENAI Cimatec com as vestimentas escolhidas. Por favor, volte e escolha novamente.",
-					"Maravilhaaa! Você cumpriu com o desafio  por isso tem acesso liberado! Todos que passam por aqui recebem esta garrafa, guarde com cuidado, você vai precisar dela. Tenha uma ótima visita!!!",
+					"Maravilha! Você cumpriu com o desafio  por isso tem o acesso liberado! Clique no elevador e tenha uma ótima visita!!!",
                     "Mas atenção, você está recebendo 1.000 sustens para serem utilizadas nas próximas missões. \nPortanto, cuidado com as suas escolhas, pois elas impactam na sua pontuação final!!!!",
                     };
                     if (i == 0)
