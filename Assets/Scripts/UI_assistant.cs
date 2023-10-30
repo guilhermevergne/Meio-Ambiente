@@ -146,7 +146,7 @@ public class UI_assistant : MonoBehaviour
             messageText = transform.Find("DialogueText").GetComponent<Text>();
 
             textWriterSingle = TextWriter.AddWriter_Static(messageText, "Você precisa lavar suas mãos. " +
-                "Escolha a torneia mais adequada.", .02f, true, true);
+                "Escolha a torneia mais adequada. Em seguida escolha o secador mais adequado.", .02f, true, true);
 
             GameObject.Find("Btn0").GetComponent<Button_UI>().ClickFunc = () =>
             {
@@ -157,7 +157,8 @@ public class UI_assistant : MonoBehaviour
                 else if (i == 0)
                 {
                     textWriterSingle = TextWriter.AddWriter_Static(messageText, "Parabéns, você escolheu a pia mais adequada. " +
-						" Muito bem! É importante lavar as mãos controlando a quantidade de água gasta, a sua escolha economiza até 70% mais água", .02f, true, true);
+						" Muito bem! É importante lavar as mãos controlando a quantidade de água gasta, a sua escolha economiza até 70% mais água.", .02f, true, true);
+                        i = 1;
                 }
                 else if (i == 1)
                 {

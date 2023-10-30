@@ -6,12 +6,22 @@ using UnityEngine.EventSystems;
 public class TooltipTrigger : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
 
-    public string header;
-    public string content;
+    public string sinkHeader;
+    public string sinkContent;
+    public string dryerHeader;
+    public string dryerContent;
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        TooltipSystem.show(content, header);
+        if(PlayerPrefs.GetInt("Sink Selected")!= 1)
+        {
+            TooltipSystem.show(sinkContent, sinkHeader);
+        }
+        else
+        {
+            TooltipSystem.show(dryerContent, dryerHeader);
+        }
+
     }
 
     public void OnPointerExit(PointerEventData eventData)

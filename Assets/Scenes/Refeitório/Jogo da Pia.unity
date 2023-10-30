@@ -1437,9 +1437,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec46fc05f2fc4e4298060a247fa8d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  header: 'Torneira tradicional '
-  content: "\xD3tima funcionalidade, te permite manter o controle sobre a quantidade
-    de \xE1gua utilizada.  "
+  sinkHeader: Torneira convencional
+  sinkContent: "Cl\xE1ssico e eficiente! Use a torneira convencional com sab\xE3o
+    para lavar as m\xE3os."
+  dryerHeader: Dispenser com papel toalha
+  dryerContent: "Sustentabilidade em a\xE7\xE3o! Seque suas m\xE3os com papel toalha
+    e recicle depois."
 --- !u!114 &1273196234697232974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1529,9 +1532,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec46fc05f2fc4e4298060a247fa8d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  header: "Torneira autom\xE1tica com press\xE3o "
-  content: "Possui fechamento autom\xE1tico com temporizador, indica  o tempo m\xEDnimo
-    do uso da \xE1gua "
+  sinkHeader: "Torneira autom\xE1tica por press\xE3o"
+  sinkContent: "Aperte e lave! A torneira de ativa\xE7\xE3o pressionada est\xE1 pronta
+    para higienizar suas m\xE3os."
+  dryerHeader: Secador com energia solar
+  dryerContent: "Energia limpa! Use o secador el\xE9trico alimentado com energia
+    solar para secar as m\xE3os."
 --- !u!222 &2042443002816686709
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1603,9 +1609,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec46fc05f2fc4e4298060a247fa8d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  header: "Torneira Autom\xE1tica com Sensor"
-  content: "al\xE9m de possuir um \xF3timo funcionamento e minimalismo, possui como
-    principal fun\xE7\xE3o diminuir o desperd\xEDcio de \xE1gua"
+  sinkHeader: Torneira com Sensor
+  sinkContent: "Economize \xE1gua! Use a torneira com sensor para lavar as m\xE3os."
+  dryerHeader: Secador com sensor
+  dryerContent: "M\xE3os molhadas? Deixe o secador el\xE9trico com sensor sec\xE1-las
+    rapidamente!"
 --- !u!224 &2897100900992786646
 RectTransform:
   m_ObjectHideFlags: 0

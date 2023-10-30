@@ -375,8 +375,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec46fc05f2fc4e4298060a247fa8d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  header: "Luva Descart\xE1vel"
-  content: "N\xE3o pode ser reutilizada"
+  sinkHeader: "Luvas descart\xE1veis"
+  sinkContent: "Higiene em primeiro lugar! Use luvas descart\xE1veis para evitar
+    a contamina\xE7\xE3o."
+  dryerHeader: "Luvas descart\xE1veis"
+  dryerContent: "Higiene em primeiro lugar! Use luvas descart\xE1veis para evitar
+    a contamina\xE7\xE3o."
 --- !u!114 &334733204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1509,8 +1513,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec46fc05f2fc4e4298060a247fa8d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  header: "\xD3culos"
-  content: 
+  sinkHeader: "\xD3culos"
+  sinkContent: "Seguran\xE7a ocular! Mantenha seus olhos protegidos com \xF3culos
+    adequados."
+  dryerHeader: "\xD3culos"
+  dryerContent: "Seguran\xE7a ocular! Mantenha seus olhos protegidos com \xF3culos
+    adequados."
 --- !u!114 &2083899618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1700,8 +1708,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec46fc05f2fc4e4298060a247fa8d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  header: Luvas Grossas
-  content: Pode ser reutilizada!
+  sinkHeader: Luvas
+  sinkContent: "Proteja suas m\xE3os! As luvas s\xE3o essenciais para a seguran\xE7a."
+  dryerHeader: Luvas
+  dryerContent: "Proteja suas m\xE3os! As luvas s\xE3o essenciais para a seguran\xE7a."
 --- !u!114 &1273196234697232974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1791,8 +1801,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec46fc05f2fc4e4298060a247fa8d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  header: "Jaleco Descart\xE1vel"
-  content: "Uso \xFAnico!"
+  sinkHeader: "Jaleco descart\xE1vel"
+  sinkContent: "Descarte com responsabilidade! Utilize o jaleco descart\xE1vel para
+    m\xE1xima higiene."
+  dryerHeader: "Jaleco descart\xE1vel"
+  dryerContent: "Descarte com responsabilidade! Utilize o jaleco descart\xE1vel para
+    m\xE1xima higiene."
 --- !u!222 &2042443002816686709
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1864,8 +1878,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec46fc05f2fc4e4298060a247fa8d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  header: "Jaleco de Algod\xE3o"
-  content: Pode ser reutilizado!
+  sinkHeader: Jaleco
+  sinkContent: "Prote\xE7\xE3o confi\xE1vel! Vista o jaleco convencional para manter-se
+    seguro."
+  dryerHeader: Jaleco
+  dryerContent: "Prote\xE7\xE3o confi\xE1vel! Vista o jaleco convencional para manter-se
+    seguro."
 --- !u!224 &2897100900992786646
 RectTransform:
   m_ObjectHideFlags: 0

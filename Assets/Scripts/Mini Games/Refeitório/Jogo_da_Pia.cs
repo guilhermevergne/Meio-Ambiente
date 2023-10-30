@@ -19,6 +19,7 @@ public class Jogo_da_Pia : MonoBehaviour
         {
             DestroyImmediate(GameObject.Find("Jogo_da_Pia"));
         }
+        PlayerPrefs.SetInt("Sink Selected", 0);
     }
 
     void ChangeBtn()
@@ -35,6 +36,7 @@ public class Jogo_da_Pia : MonoBehaviour
         {
             PlayerPrefs.SetInt("Sink", button);
             sinkSelected = true;
+            PlayerPrefs.SetInt("Sink Selected", 1);
             if (button == 0)
             {
                 PlayerPrefs.SetInt("Pia Certa", 1);
