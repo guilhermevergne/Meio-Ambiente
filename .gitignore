@@ -35,3 +35,9 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Library/ArtifactDB
+UserSettings/EditorUserSettings.asset
+Logs/AssetImportWorker0.log
+*.log
+*.log
+*.log

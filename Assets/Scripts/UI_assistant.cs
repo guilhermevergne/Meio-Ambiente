@@ -97,17 +97,7 @@ public class UI_assistant : MonoBehaviour
                 {
                     textWriterSingle = TextWriter.AddWriter_Static(messageText, " ", .02f, true, true);
                     transform.Find("DialogueBox").GetComponent<Image>().color = new Color(1f, 1f, 1f, 0f);
-                    /*if (i == 0)
-                    {
-                        textWriterSingle = TextWriter.AddWriter_Static(messageText, "Este é o refeitório, aqui você fará uma refeição. " +
-                        "Mas antes de se servir, primeiro lave as suas mãos.", .02f, true, true);
-                        i = 1;
-                    }
-                    else if (i == 1)
-                    {
-                        textWriterSingle = TextWriter.AddWriter_Static(messageText, " ", .02f, true, true);
-                        transform.Find("DialogueBox").GetComponent<Image>().color = new Color(1f, 1f, 1f, 0f);
-                    }*/
+                    
                 };
             }
             else if(PlayerPrefs.GetInt("Jogo da Comida") == 0)
@@ -139,6 +129,17 @@ public class UI_assistant : MonoBehaviour
                     }
                 };
             }
+            else if (PlayerPrefs.GetInt("Jogo do Descarte") == 1 && SceneManager.GetActiveScene().buildIndex == 2)
+            {
+				textWriterSingle = TextWriter.AddWriter_Static(messageText, "Texto pós jogo do descarte", .02f, true, true);
+				
+                transform.Find("DialogueText").GetComponent<Button_UI>().ClickFunc = () =>
+				{
+					textWriterSingle = TextWriter.AddWriter_Static(messageText, " ", .02f, true, true);
+					transform.Find("DialogueBox").GetComponent<Image>().color = new Color(1f, 1f, 1f, 0f);
+				};
+
+			}
 
         }
         else if (SceneManager.GetActiveScene().buildIndex == 3)
@@ -245,6 +246,7 @@ public class UI_assistant : MonoBehaviour
                 " Por isso o seu objetivo é escolher a roupa adequada para ter acesso livre!!!\n", .02f, true, true);
             }
         }
+
         if (SceneManager.GetActiveScene().buildIndex == 3)
         {
             if (textWriterSingle != null && textWriterSingle.isactive())
@@ -257,6 +259,18 @@ public class UI_assistant : MonoBehaviour
             }
         }
 
+		if (SceneManager.GetActiveScene().buildIndex == 6)
+		{
+			if (textWriterSingle != null && textWriterSingle.isactive())
+			{
+				textWriterSingle.WriteAllandDestroy();
+			}
+			else
+			{
+				textWriterSingle = TextWriter.AddWriter_Static(messageText, "Texto Corredor", .02f, true, true);
+			}
+		}
 
-    }
+
+	}
 }
