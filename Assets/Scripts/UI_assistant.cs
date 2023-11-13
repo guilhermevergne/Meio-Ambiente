@@ -221,10 +221,25 @@ public class UI_assistant : MonoBehaviour
             };
         }
 
+		if (SceneManager.GetActiveScene().buildIndex == 6)
+		{
 
-    }
+			messageText = transform.Find("DialogueText").GetComponent<Text>();
+			{
+				textWriterSingle = TextWriter.AddWriter_Static(messageText, "placeholder", .02f, true, true);
+				transform.Find("DialogueText").GetComponent<Button_UI>().ClickFunc = () =>
+				{
+					textWriterSingle = TextWriter.AddWriter_Static(messageText, " ", .02f, true, true);
+					transform.Find("DialogueBox").GetComponent<Image>().color = new Color(1f, 1f, 1f, 0f);
+				};
+			}
+	    }
 
-    private void Start()
+
+
+	}
+
+	private void Start()
     {
         if (SceneManager.GetActiveScene().buildIndex == 0)
         {
@@ -258,19 +273,5 @@ public class UI_assistant : MonoBehaviour
                 textWriterSingle = TextWriter.AddWriter_Static(messageText, "Escolha a torneira mais ecologica para lavar as suas mãos!", .02f, true, true);
             }
         }
-
-		if (SceneManager.GetActiveScene().buildIndex == 6)
-		{
-			if (textWriterSingle != null && textWriterSingle.isactive())
-			{
-				textWriterSingle.WriteAllandDestroy();
-			}
-			else
-			{
-				textWriterSingle = TextWriter.AddWriter_Static(messageText, "Texto Corredor", .02f, true, true);
-			}
-		}
-
-
 	}
 }
