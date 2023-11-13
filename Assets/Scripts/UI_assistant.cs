@@ -131,7 +131,9 @@ public class UI_assistant : MonoBehaviour
             }
             else if (PlayerPrefs.GetInt("Jogo do Descarte") == 1 && SceneManager.GetActiveScene().buildIndex == 2)
             {
-				textWriterSingle = TextWriter.AddWriter_Static(messageText, "Texto pós jogo do descarte", .02f, true, true);
+				textWriterSingle = TextWriter.AddWriter_Static(messageText, "Agora que já terminou o descarte, é hora de avançar para a " +
+                    "próxima fase da sua missão ecológica. Direcione seus passos para a direita e prepare-se para enfrentar novos desafios " +
+                    "que testarão seus conhecimentos sobre a preservação do meio ambiente.", .02f, true, true);
 				
                 transform.Find("DialogueText").GetComponent<Button_UI>().ClickFunc = () =>
 				{
@@ -226,13 +228,27 @@ public class UI_assistant : MonoBehaviour
 
 			messageText = transform.Find("DialogueText").GetComponent<Text>();
 			{
-				textWriterSingle = TextWriter.AddWriter_Static(messageText, "placeholder", .02f, true, true);
-				transform.Find("DialogueText").GetComponent<Button_UI>().ClickFunc = () =>
-				{
-					textWriterSingle = TextWriter.AddWriter_Static(messageText, " ", .02f, true, true);
-					transform.Find("DialogueBox").GetComponent<Image>().color = new Color(1f, 1f, 1f, 0f);
-				};
-			}
+                if (PlayerPrefs.GetInt("Vestiário") != 1)
+                {
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Entre no vestiário e escolha os EPIs de modo consciente.", .02f, true, true);
+                    transform.Find("DialogueText").GetComponent<Button_UI>().ClickFunc = () =>
+                    {
+                        textWriterSingle = TextWriter.AddWriter_Static(messageText, " ", .02f, true, true);
+                        transform.Find("DialogueBox").GetComponent<Image>().color = new Color(1f, 1f, 1f, 0f);
+                    };
+                }
+                else if (PlayerPrefs.GetInt("Vestiário") == 1)
+                {
+                    textWriterSingle = TextWriter.AddWriter_Static(messageText, "Agora que já escolheu os EPIs, entre no laboratório, encontre todos os " +
+                        "erros e clique neles. Tenha em mente que haverá um cronometro, tente completar o mais rápido possível!", .02f, true, true);
+                    transform.Find("DialogueText").GetComponent<Button_UI>().ClickFunc = () =>
+                    {
+                        textWriterSingle = TextWriter.AddWriter_Static(messageText, " ", .02f, true, true);
+                        transform.Find("DialogueBox").GetComponent<Image>().color = new Color(1f, 1f, 1f, 0f);
+                    };
+                }
+
+            }
 	    }
 
 
